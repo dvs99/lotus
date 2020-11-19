@@ -5,16 +5,15 @@ using UnityEngine.UI;
 
 public class CharacterDisplayHelper : MonoBehaviour
 {
+    [SerializeField] private Sprite[] emotionSprites = null;
+
     [SerializeField] private Sprite textBoxSprite;
+    public Sprite TextBoxSprite { get { return textBoxSprite; } private set { textBoxSprite = value; } }
 
-    [SerializeField] private Color greyOutColor;
-
-    [SerializeField] private Sprite[] emotionSprites;
-    public Sprite TextBoxSprite { get; private set; }
-    public Color GreyOutColor { get; set; }
-
+    public Color GreyOutColor;
 
     private Image characterImage;
+
     private Emotion activeEmotion;
     private bool isTalking;
 
@@ -35,16 +34,33 @@ public class CharacterDisplayHelper : MonoBehaviour
         set //when the character is not talking make it loog greyed out
         {
             if (value)
-               characterImage.color = Color.white;
+            {
+                isTalking = true;
+                characterImage.color = Color.white;
+            }
             else
-                characterImage.color = greyOutColor;
-
+            {
+                isTalking = false;
+                characterImage.color = GreyOutColor;
+            }
         }
     }
 
     void Start()
     {
+        if (textBoxSprite == null)
+            throw new System.Exception("No textbox assigned to CharacterDisplayHelper on " + gameObject.name);
+
         characterImage = GetComponent<Image>();
         ActiveEmotion = Emotion.Neutral;
+    }
+
+    public void Show()
+    {
+        characterImage.enabled = true;
+    }
+    public void Hide()
+    {
+        characterImage.enabled = false;
     }
 }
