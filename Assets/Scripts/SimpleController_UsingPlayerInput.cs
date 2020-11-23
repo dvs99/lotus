@@ -16,6 +16,12 @@ public class SimpleController_UsingPlayerInput : MonoBehaviour
     private Vector2 m_Look;
     private Vector2 m_Move;
 
+    private Rigidbody2D rb;
+
+    Animator animator;
+
+
+
     public void OnMove(InputAction.CallbackContext context)
     {
         m_Move = context.ReadValue<Vector2>();
@@ -59,12 +65,13 @@ public class SimpleController_UsingPlayerInput : MonoBehaviour
             GUI.Label(new Rect(100, 100, 200, 100), "Charging...");
     }
 
-    public void Update()
+    public void FixedUpdate()
     {
         // Update orientation first, then move. Otherwise move orientation will lag
         // behind by one frame.
         Look(m_Look);
         Move(m_Move);
+        
     }
 
     private void Move(Vector2 direction)
@@ -74,9 +81,9 @@ public class SimpleController_UsingPlayerInput : MonoBehaviour
         var scaledMoveSpeed = moveSpeed * Time.deltaTime;
         // For simplicity's sake, we just keep movement in a single plane here. Rotate
         // direction according to world Y rotation of player.
-        
         var move = Quaternion.Euler(0, transform.eulerAngles.y, 0) * new Vector3(direction.x, direction.y,0 );
-        transform.position += move * scaledMoveSpeed;
+
+        rb.MovePosition(transform.position + move * scaledMoveSpeed);
     }
 
     private void Look(Vector2 rotate)
@@ -110,5 +117,10 @@ public class SimpleController_UsingPlayerInput : MonoBehaviour
         newProjectile.GetComponent<Rigidbody>().AddForce(transform.forward * 20f, ForceMode.Impulse);
         newProjectile.GetComponent<MeshRenderer>().material.color =
             new Color(Random.value, Random.value, Random.value, 1.0f);
+    }
+    void Start()
+    {
+        rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 }
