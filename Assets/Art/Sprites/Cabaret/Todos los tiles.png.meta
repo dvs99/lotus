@@ -1,0 +1,992 @@
+fileFormatVersion: 2
+guid: ae0ca75e6b0bd89408816d5c355d8668
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3589319631626346301
+    second: Todos los tiles_0
+  - first:
+      213: 7155848438772948454
+    second: Todos los tiles_1
+  - first:
+      213: -7249725152529896582
+    second: Todos los tiles_2
+  - first:
+      213: 5437813536820124087
+    second: Todos los tiles_3
+  - first:
+      213: 4265832269185503891
+    second: Todos los tiles_4
+  - first:
+      213: 6824789069706575776
+    second: Todos los tiles_5
+  - first:
+      213: 3156274434331043399
+    second: Todos los tiles_6
+  - first:
+      213: -7947175084537193083
+    second: Todos los tiles_7
+  - first:
+      213: 6029495430527990306
+    second: Todos los tiles_8
+  - first:
+      213: -3473802520717648811
+    second: Todos los tiles_9
+  - first:
+      213: 4935295922549205382
+    second: Todos los tiles_10
+  - first:
+      213: -8522607992028412920
+    second: Todos los tiles_11
+  - first:
+      213: -8575638086427842766
+    second: Todos los tiles_12
+  - first:
+      213: 8027466755146055931
+    second: Todos los tiles_13
+  - first:
+      213: -6846300779902530005
+    second: Todos los tiles_14
+  - first:
+      213: -6102466997092571369
+    second: Todos los tiles_15
+  - first:
+      213: -8070515274672749493
+    second: Todos los tiles_16
+  - first:
+      213: -1446925713953116347
+    second: Todos los tiles_17
+  - first:
+      213: 4731623130485820124
+    second: Todos los tiles_18
+  - first:
+      213: 5360256707156903519
+    second: Todos los tiles_19
+  - first:
+      213: -3179025234274373735
+    second: Todos los tiles_20
+  - first:
+      213: -2024294701384751236
+    second: Todos los tiles_21
+  - first:
+      213: 6317155993553041337
+    second: Todos los tiles_22
+  - first:
+      213: 3154290194699891207
+    second: Todos los tiles_23
+  - first:
+      213: -4542161806895647878
+    second: Todos los tiles_24
+  - first:
+      213: -6025780742142829889
+    second: Todos los tiles_25
+  - first:
+      213: -3136810679107316956
+    second: Todos los tiles_26
+  - first:
+      213: -4007782704352565311
+    second: Todos los tiles_27
+  - first:
+      213: 2893131553350965013
+    second: Todos los tiles_28
+  - first:
+      213: -3152793229595129812
+    second: Todos los tiles_29
+  - first:
+      213: 3173417258050896044
+    second: Todos los tiles_30
+  - first:
+      213: 108044596147434529
+    second: Todos los tiles_31
+  - first:
+      213: 1447048379570510121
+    second: Todos los tiles_32
+  - first:
+      213: 3346744514042568498
+    second: Todos los tiles_33
+  - first:
+      213: -7274591464672457548
+    second: Todos los tiles_34
+  - first:
+      213: -2031262905352780761
+    second: Todos los tiles_35
+  - first:
+      213: 996471550513985545
+    second: Todos los tiles_36
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Todos los tiles_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 349
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f9c6c1033dfc130800000000000000
+      internalID: 3589319631626346301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Todos los tiles_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 349
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ed5893ed3eae4360800000000000000
+      internalID: 7155848438772948454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Todos los tiles_2
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 349
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7bad3c626dc36b90800000000000000
+      internalID: -7249725152529896582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Todos los tiles_3
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 350
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b959f8d99ef67b40800000000000000
+      internalID: 5437813536820124087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Todos los tiles_4
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 325
+        width: 72
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3925334f8d7433b30800000000000000
+      internalID: 4265832269185503891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Todos los tiles_5
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 344
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0af34d6ef7586be50800000000000000
+      internalID: 6824789069706575776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Todos los tiles_6
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 318
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 746e2f710e65dcb20800000000000000
+      internalID: 3156274434331043399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Todos los tiles_7
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 316
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58d5356dd56f5b190800000000000000
+      internalID: -7947175084537193083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Todos los tiles_8
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 316
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a367ff5221da350800000000000000
+      internalID: 6029495430527990306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Todos los tiles_9
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 316
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c94cc23039acfc0800000000000000
+      internalID: -3473802520717648811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Todos los tiles_10
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 321
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 689aaf44e71bd7440800000000000000
+      internalID: 4935295922549205382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Todos los tiles_11
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 321
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 804cd3b9f2d99b980800000000000000
+      internalID: -8522607992028412920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Todos los tiles_12
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 321
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 237682898963df880800000000000000
+      internalID: -8575638086427842766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Todos los tiles_13
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 321
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf00db28b7a476f60800000000000000
+      internalID: 8027466755146055931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Todos los tiles_14
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 321
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e0e64c6bd0df0a0800000000000000
+      internalID: -6846300779902530005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Todos los tiles_15
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 271
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 717a0c0399eaf4ba0800000000000000
+      internalID: -6102466997092571369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Todos los tiles_16
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 271
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4444cafd15cfff80800000000000000
+      internalID: -8070515274672749493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Todos los tiles_17
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 289
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f2273babc7bebe0800000000000000
+      internalID: -1446925713953116347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Todos los tiles_18
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 289
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cda01affa2a1aa140800000000000000
+      internalID: 4731623130485820124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Todos los tiles_19
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 124
+        width: 192
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f560ef64315736a40800000000000000
+      internalID: 5360256707156903519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Todos los tiles_20
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 256
+        width: 21
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99fa2138465d1e3d0800000000000000
+      internalID: -3179025234274373735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Todos los tiles_21
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 243
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c77a14bb1b248e3e0800000000000000
+      internalID: -2024294701384751236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Todos los tiles_22
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 263
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b7757a08eb0ba750800000000000000
+      internalID: 6317155993553041337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Todos los tiles_23
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 263
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 702b59d483a46cb20800000000000000
+      internalID: 3154290194699891207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Todos los tiles_24
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 265
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7373abe6eff6f0c0800000000000000
+      internalID: -4542161806895647878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Todos los tiles_25
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 219
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbadf2a4750206ca0800000000000000
+      internalID: -6025780742142829889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Todos los tiles_26
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 219
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42318209e4fc774d0800000000000000
+      internalID: -3136810679107316956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Todos los tiles_27
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 236
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c76c125dde7168c0800000000000000
+      internalID: -4007782704352565311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Todos los tiles_28
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 236
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51755fdb1d7762820800000000000000
+      internalID: 2893131553350965013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Todos los tiles_29
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 209
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c28c9bb03470f34d0800000000000000
+      internalID: -3152793229595129812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Todos los tiles_30
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 209
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca0c736ce2e3a0c20800000000000000
+      internalID: 3173417258050896044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Todos los tiles_31
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 123
+        width: 24
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 124b44ddcf9df7100800000000000000
+      internalID: 108044596147434529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Todos los tiles_32
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 134
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 929da1d95d2f41410800000000000000
+      internalID: 1447048379570510121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Todos los tiles_33
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 53
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23f9e795766027e20800000000000000
+      internalID: 3346744514042568498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Todos los tiles_34
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 78
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bc0c16fa957b0b90800000000000000
+      internalID: -7274591464672457548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Todos los tiles_35
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 53
+        width: 24
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 724050156218fc3e0800000000000000
+      internalID: -2031262905352780761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Todos los tiles_36
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 53
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9083b2d789d24dd00800000000000000
+      internalID: 996471550513985545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
