@@ -8,8 +8,8 @@ using UnityEngine.InputSystem;
 
 public class DialogueBox : MonoBehaviour
 {
-    [SerializeField] private Vector2 leftLocation;
-    [SerializeField] private Vector2 rightLocation;
+    [SerializeField] private Vector2 leftLocation=Vector2.zero;
+    [SerializeField] private Vector2 rightLocation=Vector2.zero;
 
 
     [SerializeField]private CharacterDisplayHelper lCharacter;
@@ -64,7 +64,7 @@ public class DialogueBox : MonoBehaviour
 
         if (rCharacter != null)
         {
-            rCharacter.GetComponent<RectTransform>().anchoredPosition = leftLocation;
+            rCharacter.GetComponent<RectTransform>().anchoredPosition = rightLocation;
             rCharacter.Show();
         }
 

@@ -12,14 +12,5 @@ public class Dialogue : MonoBehaviour
     public CharacterDisplayHelper RCharacter = null;
 
     public Dialogue nextDialogue;
-
-
-
-    //TEMP
-
-    public void RunSelf()
-    {
-        DialogueManager.Instance.startDialogue(transform);
-        Debug.LogWarning("this method runs for testin' ourposes you dumb");
-    }
+    public bool activated=false;
 }

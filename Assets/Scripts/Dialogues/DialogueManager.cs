@@ -9,13 +9,13 @@ public class DialogueManager : MonoBehaviour
     public static DialogueManager Instance { get; private set; }
 
     [SerializeField]
-    private DialogueBox box;
+    private DialogueBox box=null;
 
     private Dialogue activeDialogue=null;
     private int dialogueParseIndex = -1;
     private PlayerInput pInput;
     private string prevActionMap;
-    private bool dialogueEnded;
+    private bool dialogueEnded = false;
 
 
     void Awake()
@@ -71,34 +71,32 @@ public class DialogueManager : MonoBehaviour
                 {
                     case "-lc": //left talks
                         box.DisplayNewText(activeDialogue.Lines[dialogueParseIndex].Substring(3),false);
-                        Debug.Log("MODE LC" + dialogueParseIndex +" - " + activeDialogue.Lines[dialogueParseIndex]);
+                        //Debug.Log("MODE LC" + dialogueParseIndex +" - " + activeDialogue.Lines[dialogueParseIndex]);
                         break;
 
                     case "-rc": //right talks
                         box.DisplayNewText(activeDialogue.Lines[dialogueParseIndex].Substring(3), true);
-                        Debug.Log("MODE RC" + dialogueParseIndex + " - " + activeDialogue.Lines[dialogueParseIndex]);
+                        //Debug.Log("MODE RC" + dialogueParseIndex + " - " + activeDialogue.Lines[dialogueParseIndex]);
                         break;
 
                     case "-ss": //load a scene single mode & close
-                        Debug.Log("MODE SS" + dialogueParseIndex + " - " + activeDialogue.Lines[dialogueParseIndex]);
+                        //Debug.Log("MODE SS" + dialogueParseIndex + " - " + activeDialogue.Lines[dialogueParseIndex]);
                         sceneLoad(LoadSceneMode.Single);
-                        endDialogue();
                         break;
 
                     case "-sa": //load a scene additive mode & close
-                        Debug.Log("MODE SA" + dialogueParseIndex + " - " + activeDialogue.Lines[dialogueParseIndex]);
+                        //Debug.Log("MODE SA" + dialogueParseIndex + " - " + activeDialogue.Lines[dialogueParseIndex]);
                         sceneLoad(LoadSceneMode.Additive);
-                        endDialogue();
                         break;
 
                     case "-nd": //set next dialogue & close
-                        Debug.Log("MODE ND" + dialogueParseIndex + " - " + activeDialogue.Lines[dialogueParseIndex]);
+                        //Debug.Log("MODE ND" + dialogueParseIndex + " - " + activeDialogue.Lines[dialogueParseIndex]);
                         setNextDialogue();
                         endDialogue();
                         break;
 
                     case "-rl": //run random line and set to be closed
-                        Debug.Log("MODE RL" + dialogueParseIndex + " - " + activeDialogue.Lines[dialogueParseIndex]);
+                        //Debug.Log("MODE RL" + dialogueParseIndex + " - " + activeDialogue.Lines[dialogueParseIndex]);
                         dialogueParseIndex = Random.Range(dialogueParseIndex, activeDialogue.Lines.Length - 2);
                         OnSubmit();
                         dialogueEnded = true;
@@ -122,18 +120,22 @@ public class DialogueManager : MonoBehaviour
             {
                 foreach (Transform child in dialogue)
                 {
-                    activeDialogue = activeDialogue.GetComponent<Dialogue>();
-                    if (activeDialogue.enabled == false)
-                        activeDialogue = null;
+                    activeDialogue = child.GetComponent<Dialogue>();
+                    if (activeDialogue != null)
+                        if (!activeDialogue.activated)
+                            activeDialogue = null;
+                        else //dialogue foud
+                            break;
                 }
                 
                 if (activeDialogue == null)
                 {
-                    Debug.LogError("There is no enabled dialogue in the provided gameObject or its children");
+                    Debug.LogWarning("There is no activated dialogue in the provided gameObject or its children");
                     return;
                 }
             }
 
+            dialogueEnded = false;
             box.Enable(activeDialogue.LCharacter, activeDialogue.RCharacter);
             OnSubmit();
 
@@ -159,15 +161,17 @@ public class DialogueManager : MonoBehaviour
         string scene = activeDialogue.Lines[dialogueParseIndex].Substring(3);
 
         dialogueParseIndex++;
-        if (activeDialogue.Lines[dialogueParseIndex] != null && activeDialogue.Lines[dialogueParseIndex] == "-nd")
+        if (activeDialogue.Lines.Length < dialogueParseIndex && activeDialogue.Lines[dialogueParseIndex] == "-nd")
             setNextDialogue();
 
+        endDialogue();
         SceneManager.LoadScene(scene, mode);
     }
 
     private void setNextDialogue()
     {
-        activeDialogue.nextDialogue.enabled = true;
-        activeDialogue.enabled = false;
+        if (activeDialogue.nextDialogue != null)
+            activeDialogue.nextDialogue.activated = true;
+        activeDialogue.activated = false;
     }
 }

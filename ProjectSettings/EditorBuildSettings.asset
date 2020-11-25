@@ -4,7 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/DialogueTest2.unity
+    guid: b9cf7668b76176e4e83a7ff78740961a
+  - enabled: 1
+    path: Assets/Scenes/Baile.unity
+    guid: cfe88abcf5b836d43a9a692db52e2998
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: b41653c9278f1a54992eb41f749d8d00,
       type: 2}
