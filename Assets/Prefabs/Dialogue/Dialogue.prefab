@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1186561628195410755}
   - component: {fileID: 8173159795264704101}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Dialogue
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

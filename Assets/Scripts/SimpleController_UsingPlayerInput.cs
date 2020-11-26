@@ -94,8 +94,12 @@ public class SimpleController_UsingPlayerInput : MonoBehaviour
         RaycastHit2D hit = Physics2D.Raycast(rb.position + Vector2.up * 0.2f, lookDirection, 1.5f, LayerMask.GetMask("NPC"));
         if (hit.collider != null)
         {
-            Debug.Log("Raycast has hit the object " + hit.collider.gameObject);
+            foreach (Transform child in hit.collider.transform)
+                if (child.CompareTag("Interactable"))
+                    DialogueManager.Instance.StartDialogue(child);
         }
-        else { Debug.Log("Donde estas mirando?"); }
+        else {
+        //    Debug.Log("Donde estas mirando?");
+        }
     }
 }

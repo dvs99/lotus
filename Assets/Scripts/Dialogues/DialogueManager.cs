@@ -111,7 +111,7 @@ public class DialogueManager : MonoBehaviour
     }
 
 
-    public void startDialogue(Transform dialogue)
+    public void StartDialogue(Transform dialogue)
     {
         if (activeDialogue == null)
         {

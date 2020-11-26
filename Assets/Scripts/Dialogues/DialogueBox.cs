@@ -12,8 +12,10 @@ public class DialogueBox : MonoBehaviour
     [SerializeField] private Vector2 rightLocation=Vector2.zero;
 
 
-    [SerializeField]private CharacterDisplayHelper lCharacter;
+    [SerializeField] private CharacterDisplayHelper lCharacter;
     [SerializeField] private CharacterDisplayHelper rCharacter;
+    [SerializeField] private Sprite defaultBoxImageSprite;
+
 
     private Image boxImage;
     private TextMeshProUGUI textBox;
@@ -33,6 +35,8 @@ public class DialogueBox : MonoBehaviour
             boxImage.sprite = rCharacter.TextBoxSprite;
             rCharacter.IsTalking = true;
         }
+        else
+            boxImage.sprite = defaultBoxImageSprite;
         if (lCharacter != null)
             lCharacter.IsTalking = false;
     }
@@ -44,6 +48,8 @@ public class DialogueBox : MonoBehaviour
             boxImage.sprite = lCharacter.TextBoxSprite;
             lCharacter.IsTalking = true;
         }
+        else
+            boxImage.sprite = defaultBoxImageSprite;
         if (rCharacter != null)
             rCharacter.IsTalking = false;
     }
