@@ -19,7 +19,7 @@
                     "id": "daa16294-83cc-4486-836c-ad5f0e3bfdde",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "Press"
                 },
                 {
                     "name": "Interact",
@@ -27,7 +27,7 @@
                     "id": "35e7f803-688c-4bb2-815b-d6b415e0ea80",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "Press"
                 }
             ],
             "bindings": [
@@ -271,7 +271,7 @@
                     "id": "b0710aca-edd8-4bcf-9033-5914568e54de",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "Press"
                 },
                 {
                     "name": "Cancel",
@@ -279,7 +279,7 @@
                     "id": "7e6e3678-98fe-4c65-b421-6ef914fc0261",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "Press"
                 }
             ],
             "bindings": [
