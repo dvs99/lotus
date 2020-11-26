@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - NPC
   layers:
   - Default
   - TransparentFX
@@ -13,7 +14,11 @@ TagManager:
   - UI
   - 
   - 
+<<<<<<< HEAD
   - Confiner
+=======
+  - NPC
+>>>>>>> a0720df1c7a99f60db14bafc6f3584f0497de9b1
   - 
   - 
   - 
