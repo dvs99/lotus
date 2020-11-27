@@ -5,8 +5,8 @@ using UnityEngine;
 public class Enemigo : MonoBehaviour
 {
 
-    private float speed = 5.0f;
-    public bool vertical;
+    //private float speed = 15.0f;
+    private bool vertical;
     public float changeTime = 3.0f;
     public List<Transform> tail;
 
@@ -19,6 +19,8 @@ public class Enemigo : MonoBehaviour
     {
         rigidbody2D = GetComponent<Rigidbody2D>();
         timer = changeTime;
+        QualitySettings.vSyncCount = 0;
+        Application.targetFrameRate = 10;
     }
 
     // Update is called once per frame
@@ -42,13 +44,13 @@ public class Enemigo : MonoBehaviour
         if (vertical)
         {
             //lastPos.y = position.y + Time.deltaTime * speed * direction;
-            position.y = position.y + Time.deltaTime * speed * direction;
+            position.y = position.y + Time.deltaTime * direction * 4.85f;
         }
 
         else
         {
             //lastPos.x = position.x + Time.deltaTime * speed * direction;
-            position.x = position.x + Time.deltaTime * speed * direction;
+            position.x = position.x + Time.deltaTime * direction * 4.85f;
         }
 
         /*for (int i = 0; i < tail.Count; i++)
