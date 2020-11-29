@@ -1526,31 +1526,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &320431304 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2399517551400638355, guid: 8482962064de8de4bb9999cdd3a7ff7d,
-    type: 3}
-  m_PrefabInstance: {fileID: 1964784718918290456}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &320431309
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 320431304}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: c16a031af2cdbb34880562e21050d180, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!4 &320431310 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8738503483946133229, guid: 8482962064de8de4bb9999cdd3a7ff7d,
@@ -14196,55 +14171,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1269567586365479777, guid: 8482962064de8de4bb9999cdd3a7ff7d,
-        type: 3}
-      propertyPath: m_SortingOrder
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 1964784718080075754, guid: 8482962064de8de4bb9999cdd3a7ff7d,
-        type: 3}
-      propertyPath: rotateSpeed
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1964784718080075754, guid: 8482962064de8de4bb9999cdd3a7ff7d,
-        type: 3}
-      propertyPath: moveSpeed
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1964784718080075765, guid: 8482962064de8de4bb9999cdd3a7ff7d,
-        type: 3}
-      propertyPath: m_LinearDrag
-      value: 1000000
-      objectReference: {fileID: 0}
-    - target: {fileID: 1964784718080075766, guid: 8482962064de8de4bb9999cdd3a7ff7d,
-        type: 3}
-      propertyPath: m_Offset.x
-      value: 0.00035071373
-      objectReference: {fileID: 0}
-    - target: {fileID: 1964784718080075766, guid: 8482962064de8de4bb9999cdd3a7ff7d,
-        type: 3}
-      propertyPath: m_Size.x
-      value: 0.67063093
-      objectReference: {fileID: 0}
-    - target: {fileID: 1964784718080075766, guid: 8482962064de8de4bb9999cdd3a7ff7d,
-        type: 3}
-      propertyPath: m_Offset.y
-      value: -0.17687476
-      objectReference: {fileID: 0}
-    - target: {fileID: 1964784718080075766, guid: 8482962064de8de4bb9999cdd3a7ff7d,
-        type: 3}
-      propertyPath: m_Size.y
-      value: 0.55511355
-      objectReference: {fileID: 0}
     - target: {fileID: 2399517551400638355, guid: 8482962064de8de4bb9999cdd3a7ff7d,
         type: 3}
       propertyPath: m_Name
       value: Protagonista
-      objectReference: {fileID: 0}
-    - target: {fileID: 2399517551400638355, guid: 8482962064de8de4bb9999cdd3a7ff7d,
-        type: 3}
-      propertyPath: m_TagString
-      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 8738503483946133229, guid: 8482962064de8de4bb9999cdd3a7ff7d,
         type: 3}
