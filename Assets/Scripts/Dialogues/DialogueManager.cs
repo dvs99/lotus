@@ -21,7 +21,6 @@ public class DialogueManager : MonoBehaviour
     private Action callback=null;
     private Regex regex;
 
-
     void Awake()
     {
         if (Instance == null)
@@ -37,6 +36,8 @@ public class DialogueManager : MonoBehaviour
 
     void Start()
     {
+        regex = new Regex(@"\[\d+\]");
+
         pInput = Input.Instance.GetComponent<PlayerInput>();
 
         //Subscribe the input callback functions to the corresponding input events
@@ -105,9 +106,55 @@ public class DialogueManager : MonoBehaviour
                         OnSubmit();
                         dialogueEnded = true;
                         break;
-                    default:
-                        Debug.LogError("Dialogue formatting is incorrect");
-                        return;
+                    default: //check for interactions with other gameobjects
+                        Match match = regex.Match(activeDialogue.Lines[dialogueParseIndex]);
+                        if (match.Success)
+                        {
+                            int index = Convert.ToInt32(match.Value.Substring(1, match.Value.Length - 2));
+                            if (index >= activeDialogue.interactedGameObjects.Length)
+                            {
+                                Debug.LogWarning("Game object doesn't exist at index " + index + " of interactedGameObjects");
+                            }
+                            else
+                                switch (activeDialogue.Lines[dialogueParseIndex].Substring(match.Value.Length,3))
+                                {
+                                    //EXPLICAR EN TOOLTIP
+
+                                    case "-do": //disable gameobject
+                                        activeDialogue.interactedGameObjects[index].SetActive(false);
+                                        break;
+
+                                    case "-eo": //enable gameobect
+                                        activeDialogue.interactedGameObjects[index].SetActive(true);
+                                        break;
+                                    case "-nd": //change the dialogue in the game object to the next dialogue
+                                        Dialogue otherDialogue = activeDialogue.interactedGameObjects[index].GetComponent<Dialogue>();
+                                        if (otherDialogue == null)
+                                        {
+                                            foreach (Transform child in activeDialogue.interactedGameObjects[index].transform)
+                                            {
+                                                otherDialogue = child.GetComponent<Dialogue>();
+                                                if (otherDialogue != null)
+                                                    if (!otherDialogue.activated)
+                                                        otherDialogue = null;
+                                                    else { //dialogue found{
+                                                        setNextDialogue(otherDialogue);
+                                                        break; }
+                                            }
+
+                                            if (otherDialogue == null)
+                                            {
+                                                Debug.LogWarning("There is no activated dialogue at index " + index + " of interactedGameObjects or its children");
+                                                return;
+                                            }
+                                        }
+                                        break;
+                                }
+                            OnSubmit();
+                        }
+                        else
+                            Debug.LogError("Dialogue formatting is incorrect");
+                        break;
                 }
             }
         }
@@ -140,7 +187,7 @@ public class DialogueManager : MonoBehaviour
                 
                 if (activeDialogue == null)
                 {
-                    Debug.LogWarning("There is no activated dialogue in the provided gameObject or its children");
+                    Debug.Log("There is no activated dialogue in the provided gameObject or its children, no dialogue started");
                     return;
                 }
             }
@@ -182,8 +229,12 @@ public class DialogueManager : MonoBehaviour
 
     private void setNextDialogue()
     {
-        if (activeDialogue.nextDialogue != null)
-            activeDialogue.nextDialogue.activated = true;
-        activeDialogue.activated = false;
+        setNextDialogue(activeDialogue);
+    }
+    private void setNextDialogue(Dialogue d)
+    {
+        if (d.nextDialogue != null)
+            d.nextDialogue.activated = true;
+        d.activated = false;
     }
 }

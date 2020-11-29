@@ -12,5 +12,8 @@ public class Dialogue : MonoBehaviour
     public CharacterDisplayHelper RCharacter = null;
 
     public Dialogue nextDialogue;
+
+    public GameObject[] interactedGameObjects = null;
+
     public bool activated=false;
 }
