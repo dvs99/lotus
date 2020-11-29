@@ -16,7 +16,7 @@ TagManager:
   - 
   - Confiner
   - NPC
-  - 
+  - Farolas
   - 
   - 
   - 
@@ -41,4 +41,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Farolas
+    uniqueID: 263901093
     locked: 0
