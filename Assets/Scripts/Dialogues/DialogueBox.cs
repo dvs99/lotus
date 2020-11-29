@@ -12,9 +12,9 @@ public class DialogueBox : MonoBehaviour
     [SerializeField] private Vector2 rightLocation=Vector2.zero;
 
 
-    [SerializeField] private CharacterDisplayHelper lCharacter;
-    [SerializeField] private CharacterDisplayHelper rCharacter;
-    [SerializeField] private Sprite defaultBoxImageSprite;
+    [SerializeField] private CharacterDisplayHelper lCharacter=null;
+    [SerializeField] private CharacterDisplayHelper rCharacter=null;
+    [SerializeField] private Sprite defaultBoxImageSprite=null;
 
 
     private Image boxImage;

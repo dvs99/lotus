@@ -1,5 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System;
+using System.Text.RegularExpressions;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
@@ -16,6 +18,8 @@ public class DialogueManager : MonoBehaviour
     private PlayerInput pInput;
     private string prevActionMap;
     private bool dialogueEnded = false;
+    private Action callback=null;
+    private Regex regex;
 
 
     void Awake()
@@ -70,7 +74,7 @@ public class DialogueManager : MonoBehaviour
                 switch (activeDialogue.Lines[dialogueParseIndex].Substring(0, 3))
                 {
                     case "-lc": //left talks
-                        box.DisplayNewText(activeDialogue.Lines[dialogueParseIndex].Substring(3),false);
+                        box.DisplayNewText(activeDialogue.Lines[dialogueParseIndex].Substring(3), false);
                         //Debug.Log("MODE LC" + dialogueParseIndex +" - " + activeDialogue.Lines[dialogueParseIndex]);
                         break;
 
@@ -97,19 +101,25 @@ public class DialogueManager : MonoBehaviour
 
                     case "-rl": //run random line and set to be closed
                         //Debug.Log("MODE RL" + dialogueParseIndex + " - " + activeDialogue.Lines[dialogueParseIndex]);
-                        dialogueParseIndex = Random.Range(dialogueParseIndex, activeDialogue.Lines.Length - 2);
+                        dialogueParseIndex = UnityEngine.Random.Range(dialogueParseIndex, activeDialogue.Lines.Length - 2);
                         OnSubmit();
                         dialogueEnded = true;
                         break;
-
                     default:
                         Debug.LogError("Dialogue formatting is incorrect");
                         return;
                 }
             }
         }
+        else
+            endDialogue();
     }
 
+    public void StartDialogue(Transform dialogue, Action cb)
+    {
+        callback = cb;
+        StartDialogue(dialogue);
+    }
 
     public void StartDialogue(Transform dialogue)
     {
@@ -154,6 +164,8 @@ public class DialogueManager : MonoBehaviour
         pInput.SwitchCurrentActionMap(prevActionMap);
 
         box.Disable();
+        callback?.Invoke();
+        callback = null;
     }
 
     private void sceneLoad(LoadSceneMode mode)
