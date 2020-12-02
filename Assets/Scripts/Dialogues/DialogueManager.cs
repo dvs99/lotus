@@ -1,5 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System;
+using System.Text.RegularExpressions;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
@@ -16,7 +18,8 @@ public class DialogueManager : MonoBehaviour
     private PlayerInput pInput;
     private string prevActionMap;
     private bool dialogueEnded = false;
-
+    private Action callback=null;
+    private Regex regex;
 
     void Awake()
     {
@@ -33,6 +36,8 @@ public class DialogueManager : MonoBehaviour
 
     void Start()
     {
+        regex = new Regex(@"\[\d+\]");
+
         pInput = Input.Instance.GetComponent<PlayerInput>();
 
         //Subscribe the input callback functions to the corresponding input events
@@ -70,7 +75,7 @@ public class DialogueManager : MonoBehaviour
                 switch (activeDialogue.Lines[dialogueParseIndex].Substring(0, 3))
                 {
                     case "-lc": //left talks
-                        box.DisplayNewText(activeDialogue.Lines[dialogueParseIndex].Substring(3),false);
+                        box.DisplayNewText(activeDialogue.Lines[dialogueParseIndex].Substring(3), false);
                         //Debug.Log("MODE LC" + dialogueParseIndex +" - " + activeDialogue.Lines[dialogueParseIndex]);
                         break;
 
@@ -97,19 +102,71 @@ public class DialogueManager : MonoBehaviour
 
                     case "-rl": //run random line and set to be closed
                         //Debug.Log("MODE RL" + dialogueParseIndex + " - " + activeDialogue.Lines[dialogueParseIndex]);
-                        dialogueParseIndex = Random.Range(dialogueParseIndex, activeDialogue.Lines.Length - 2);
+                        dialogueParseIndex = UnityEngine.Random.Range(dialogueParseIndex, activeDialogue.Lines.Length - 2);
                         OnSubmit();
                         dialogueEnded = true;
                         break;
+                    default: //check for interactions with other gameobjects
+                        Match match = regex.Match(activeDialogue.Lines[dialogueParseIndex]);
+                        if (match.Success)
+                        {
+                            int index = Convert.ToInt32(match.Value.Substring(1, match.Value.Length - 2));
+                            if (index >= activeDialogue.interactedGameObjects.Length)
+                            {
+                                Debug.LogWarning("Game object doesn't exist at index " + index + " of interactedGameObjects");
+                            }
+                            else
+                                switch (activeDialogue.Lines[dialogueParseIndex].Substring(match.Value.Length,3))
+                                {
+                                    //EXPLICAR EN TOOLTIP
 
-                    default:
-                        Debug.LogError("Dialogue formatting is incorrect");
-                        return;
+                                    case "-do": //disable gameobject
+                                        activeDialogue.interactedGameObjects[index].SetActive(false);
+                                        break;
+
+                                    case "-eo": //enable gameobect
+                                        activeDialogue.interactedGameObjects[index].SetActive(true);
+                                        break;
+                                    case "-nd": //change the dialogue in the game object to the next dialogue
+                                        Dialogue otherDialogue = activeDialogue.interactedGameObjects[index].GetComponent<Dialogue>();
+                                        if (otherDialogue == null)
+                                        {
+                                            foreach (Transform child in activeDialogue.interactedGameObjects[index].transform)
+                                            {
+                                                otherDialogue = child.GetComponent<Dialogue>();
+                                                if (otherDialogue != null)
+                                                    if (!otherDialogue.activated)
+                                                        otherDialogue = null;
+                                                    else { //dialogue found{
+                                                        setNextDialogue(otherDialogue);
+                                                        break; }
+                                            }
+
+                                            if (otherDialogue == null)
+                                            {
+                                                Debug.LogWarning("There is no activated dialogue at index " + index + " of interactedGameObjects or its children");
+                                                return;
+                                            }
+                                        }
+                                        break;
+                                }
+                            OnSubmit();
+                        }
+                        else
+                            Debug.LogError("Dialogue formatting is incorrect");
+                        break;
                 }
             }
         }
+        else
+            endDialogue();
     }
 
+    public void StartDialogue(Transform dialogue, Action cb)
+    {
+        callback = cb;
+        StartDialogue(dialogue);
+    }
 
     public void StartDialogue(Transform dialogue)
     {
@@ -130,7 +187,7 @@ public class DialogueManager : MonoBehaviour
                 
                 if (activeDialogue == null)
                 {
-                    Debug.LogWarning("There is no activated dialogue in the provided gameObject or its children");
+                    Debug.Log("There is no activated dialogue in the provided gameObject or its children, no dialogue started");
                     return;
                 }
             }
@@ -154,6 +211,8 @@ public class DialogueManager : MonoBehaviour
         pInput.SwitchCurrentActionMap(prevActionMap);
 
         box.Disable();
+        callback?.Invoke();
+        callback = null;
     }
 
     private void sceneLoad(LoadSceneMode mode)
@@ -170,8 +229,12 @@ public class DialogueManager : MonoBehaviour
 
     private void setNextDialogue()
     {
-        if (activeDialogue.nextDialogue != null)
-            activeDialogue.nextDialogue.activated = true;
-        activeDialogue.activated = false;
+        setNextDialogue(activeDialogue);
+    }
+    private void setNextDialogue(Dialogue d)
+    {
+        if (d.nextDialogue != null)
+            d.nextDialogue.activated = true;
+        d.activated = false;
     }
 }
