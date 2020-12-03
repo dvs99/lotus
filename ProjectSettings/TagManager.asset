@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - Interactable
+  - Vida1
+  - Vida2
+  - Vida3
+  - Enemigo
+  - Meta
   layers:
   - Default
   - TransparentFX
