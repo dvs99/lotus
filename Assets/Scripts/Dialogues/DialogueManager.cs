@@ -75,12 +75,20 @@ public class DialogueManager : MonoBehaviour
                 switch (activeDialogue.Lines[dialogueParseIndex].Substring(0, 3))
                 {
                     case "-lc": //left talks
-                        box.DisplayNewText(activeDialogue.Lines[dialogueParseIndex].Substring(3), false);
+                        if (activeDialogue.Lines[dialogueParseIndex][3] == '<')
+                            //set emotion
+                            box.DisplayNewText(activeDialogue.Lines[dialogueParseIndex].Substring(6), false);
+                        else
+                            box.DisplayNewText(activeDialogue.Lines[dialogueParseIndex].Substring(3), false);
                         //Debug.Log("MODE LC" + dialogueParseIndex +" - " + activeDialogue.Lines[dialogueParseIndex]);
                         break;
 
                     case "-rc": //right talks
-                        box.DisplayNewText(activeDialogue.Lines[dialogueParseIndex].Substring(3), true);
+                        if (activeDialogue.Lines[dialogueParseIndex][3] == '<')
+                            //set emotion
+                            box.DisplayNewText(activeDialogue.Lines[dialogueParseIndex].Substring(6), true);
+                        else
+                            box.DisplayNewText(activeDialogue.Lines[dialogueParseIndex].Substring(3), true);
                         //Debug.Log("MODE RC" + dialogueParseIndex + " - " + activeDialogue.Lines[dialogueParseIndex]);
                         break;
 
