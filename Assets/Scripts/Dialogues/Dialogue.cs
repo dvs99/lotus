@@ -12,6 +12,9 @@ public class Dialogue : MonoBehaviour
     public CharacterDisplayHelper LCharacter = null;
     public CharacterDisplayHelper RCharacter = null;
 
+    public string LName = null;
+    public string RName = null;
+
     public Dialogue nextDialogue;
 
     public GameObject[] interactedGameObjects = null;
