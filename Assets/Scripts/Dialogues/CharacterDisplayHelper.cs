@@ -51,7 +51,7 @@ public class CharacterDisplayHelper : MonoBehaviour
             throw new System.Exception("No textbox assigned to CharacterDisplayHelper on " + gameObject.name);
 
         characterImage = GetComponent<Image>();
-        ActiveEmotion = Emotion.Neutral;
+        ActiveEmotion = Emotion.Happy;
     }
 
     public void Show()

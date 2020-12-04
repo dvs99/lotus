@@ -181,7 +181,7 @@ public class DialogueManager : MonoBehaviour
                     if (activeDialogue != null)
                         if (!activeDialogue.activated)
                             activeDialogue = null;
-                        else //dialogue foud
+                        else //dialogue found
                             break;
                 }
                 
@@ -193,11 +193,13 @@ public class DialogueManager : MonoBehaviour
             }
 
             dialogueEnded = false;
+            prevActionMap = pInput.currentActionMap.name;
+            pInput.SwitchCurrentActionMap("UI");
+
             box.Enable(activeDialogue.LCharacter, activeDialogue.RCharacter);
             OnSubmit();
 
-            prevActionMap = pInput.currentActionMap.name;
-            pInput.SwitchCurrentActionMap("UI");
+
         }
         else
             Debug.LogWarning("There is already an open dialogue");
@@ -208,11 +210,11 @@ public class DialogueManager : MonoBehaviour
     {
         dialogueParseIndex = -1;
         activeDialogue = null;
-        pInput.SwitchCurrentActionMap(prevActionMap);
 
         box.Disable();
         callback?.Invoke();
         callback = null;
+        pInput.SwitchCurrentActionMap(prevActionMap);
     }
 
     private void sceneLoad(LoadSceneMode mode)
