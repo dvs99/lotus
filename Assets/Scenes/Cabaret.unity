@@ -641,7 +641,7 @@ PrefabInstance:
     - target: {fileID: 2891866985134531436, guid: fbff6d63aab984c43b7006de78406355,
         type: 3}
       propertyPath: Lines.Array.data[2]
-      value: "-lcDeber\xEDa hablar con Iwai y Niko antes."
+      value: "-lc<n>Deber\xEDa hablar con Iwai y Niko antes."
       objectReference: {fileID: 0}
     - target: {fileID: 2891866985134531436, guid: fbff6d63aab984c43b7006de78406355,
         type: 3}
@@ -651,7 +651,7 @@ PrefabInstance:
     - target: {fileID: 2891866985134531436, guid: fbff6d63aab984c43b7006de78406355,
         type: 3}
       propertyPath: Lines.Array.data[1]
-      value: "-lcNo me puedo ir a\xFAn, \xA1si acabo de llegar!"
+      value: "-lc<n>No me puedo ir a\xFAn, \xA1si acabo de llegar!"
       objectReference: {fileID: 0}
     - target: {fileID: 2891866985134531436, guid: fbff6d63aab984c43b7006de78406355,
         type: 3}
@@ -841,7 +841,7 @@ PrefabInstance:
     - target: {fileID: 5457976908074357949, guid: a7b4e58a037220a4db2dfef220d40f70,
         type: 3}
       propertyPath: Lines.Array.data[0]
-      value: "-lcCreo que prefiero no escuchar m\xE1s de esta conversaci\xF3n."
+      value: "-lc<n>Creo que prefiero no escuchar m\xE1s de esta conversaci\xF3n."
       objectReference: {fileID: 0}
     - target: {fileID: 5457976908074357949, guid: a7b4e58a037220a4db2dfef220d40f70,
         type: 3}
@@ -852,6 +852,11 @@ PrefabInstance:
         type: 3}
       propertyPath: nextDialogue
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5457976908074357949, guid: a7b4e58a037220a4db2dfef220d40f70,
+        type: 3}
+      propertyPath: LName
+      value: Nanami
       objectReference: {fileID: 0}
     - target: {fileID: 7680843051710651913, guid: a7b4e58a037220a4db2dfef220d40f70,
         type: 3}
@@ -871,7 +876,7 @@ PrefabInstance:
     - target: {fileID: 7680843052910562374, guid: a7b4e58a037220a4db2dfef220d40f70,
         type: 3}
       propertyPath: Lines.Array.data[3]
-      value: -lcSi fuera por mi ahora mismo no irias vestido Satoshi.
+      value: -rcSi fuera por mi ahora mismo no irias vestido Satoshi.
       objectReference: {fileID: 0}
     - target: {fileID: 7680843052910562374, guid: a7b4e58a037220a4db2dfef220d40f70,
         type: 3}
@@ -881,17 +886,17 @@ PrefabInstance:
     - target: {fileID: 7680843052910562374, guid: a7b4e58a037220a4db2dfef220d40f70,
         type: 3}
       propertyPath: Lines.Array.data[0]
-      value: "-rc\xBFY eso que te has vestido tan bien hoy Hideo?"
+      value: "-lc\xBFY eso que te has vestido tan bien hoy Hideo?"
       objectReference: {fileID: 0}
     - target: {fileID: 7680843052910562374, guid: a7b4e58a037220a4db2dfef220d40f70,
         type: 3}
       propertyPath: Lines.Array.data[1]
-      value: "-lc\xBFAcaso no puedo vestir bien para mi novio, Satoshi?"
+      value: "-rc\xBFAcaso no puedo vestir bien para mi novio, Satoshi?"
       objectReference: {fileID: 0}
     - target: {fileID: 7680843052910562374, guid: a7b4e58a037220a4db2dfef220d40f70,
         type: 3}
       propertyPath: Lines.Array.data[2]
-      value: "-rcClaro que puedes, y si fuera por mi har\xEDa que te vistieras as\xED
+      value: "-lcClaro que puedes, y si fuera por mi har\xEDa que te vistieras as\xED
         todos los d\xEDas."
       objectReference: {fileID: 0}
     - target: {fileID: 7680843052910562374, guid: a7b4e58a037220a4db2dfef220d40f70,
@@ -903,6 +908,16 @@ PrefabInstance:
         type: 3}
       propertyPath: Lines.Array.data[5]
       value: -nd
+      objectReference: {fileID: 0}
+    - target: {fileID: 7680843052910562374, guid: a7b4e58a037220a4db2dfef220d40f70,
+        type: 3}
+      propertyPath: LName
+      value: Satoshi
+      objectReference: {fileID: 0}
+    - target: {fileID: 7680843052910562374, guid: a7b4e58a037220a4db2dfef220d40f70,
+        type: 3}
+      propertyPath: RName
+      value: Hideo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a7b4e58a037220a4db2dfef220d40f70, type: 3}
@@ -1067,7 +1082,7 @@ PrefabInstance:
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[3]
-      value: "-lcQue t\xEDo mas raro."
+      value: "-lc<n>Que t\xEDo mas raro."
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
@@ -1082,7 +1097,7 @@ PrefabInstance:
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[1]
-      value: -lcY entonces a que vienes?
+      value: -lc<h>Y entonces a que vienes?
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
@@ -1100,6 +1115,16 @@ PrefabInstance:
       propertyPath: LCharacter
       value: 
       objectReference: {fileID: 571416070}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: LName
+      value: Nanami
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: RName
+      value: Akihiko
+      objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704123, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: m_Name
@@ -1187,7 +1212,17 @@ PrefabInstance:
     - target: {fileID: 5457976908074357949, guid: a7b4e58a037220a4db2dfef220d40f70,
         type: 3}
       propertyPath: Lines.Array.data[0]
-      value: "-lcEl se\xF1or est\xE1 dormido, no deber\xEDa molestarlo."
+      value: "-lc<s>El se\xF1or est\xE1 dormido, no deber\xEDa molestarlo."
+      objectReference: {fileID: 0}
+    - target: {fileID: 5457976908074357949, guid: a7b4e58a037220a4db2dfef220d40f70,
+        type: 3}
+      propertyPath: LName
+      value: Nanami
+      objectReference: {fileID: 0}
+    - target: {fileID: 5457976908074357949, guid: a7b4e58a037220a4db2dfef220d40f70,
+        type: 3}
+      propertyPath: RName
+      value: Shiro
       objectReference: {fileID: 0}
     - target: {fileID: 7680843051710651913, guid: a7b4e58a037220a4db2dfef220d40f70,
         type: 3}
@@ -1202,7 +1237,7 @@ PrefabInstance:
     - target: {fileID: 7680843052910562374, guid: a7b4e58a037220a4db2dfef220d40f70,
         type: 3}
       propertyPath: Lines.Array.data[3]
-      value: -lcParece que se ha quedado dormido.
+      value: -lc<n>Parece que se ha quedado dormido.
       objectReference: {fileID: 0}
     - target: {fileID: 7680843052910562374, guid: a7b4e58a037220a4db2dfef220d40f70,
         type: 3}
@@ -1218,7 +1253,7 @@ PrefabInstance:
     - target: {fileID: 7680843052910562374, guid: a7b4e58a037220a4db2dfef220d40f70,
         type: 3}
       propertyPath: Lines.Array.data[1]
-      value: -lcPobre hombre...
+      value: -lc<s>Pobre hombre...
       objectReference: {fileID: 0}
     - target: {fileID: 7680843052910562374, guid: a7b4e58a037220a4db2dfef220d40f70,
         type: 3}
@@ -1231,6 +1266,16 @@ PrefabInstance:
       propertyPath: LCharacter
       value: 
       objectReference: {fileID: 571416070}
+    - target: {fileID: 7680843052910562374, guid: a7b4e58a037220a4db2dfef220d40f70,
+        type: 3}
+      propertyPath: LName
+      value: Nanami
+      objectReference: {fileID: 0}
+    - target: {fileID: 7680843052910562374, guid: a7b4e58a037220a4db2dfef220d40f70,
+        type: 3}
+      propertyPath: RName
+      value: Shiro
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a7b4e58a037220a4db2dfef220d40f70, type: 3}
 --- !u!4 &206450181 stripped
@@ -2559,7 +2604,7 @@ PrefabInstance:
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[3]
-      value: "-lc\xBFY sabes d\xF3nde puede estar Niko?"
+      value: "-lc<n>\xBFY sabes d\xF3nde puede estar Niko?"
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
@@ -2574,8 +2619,8 @@ PrefabInstance:
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[1]
-      value: "-lcPues la verdad es que busco a Iwai y a Niko, \xBFlos has visto por
-        ah\xED?"
+      value: "-lc<h>Pues la verdad es que busco a Iwai y a Niko, \xBFlos has visto
+        por ah\xED?"
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
@@ -2597,7 +2642,7 @@ PrefabInstance:
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[5]
-      value: "-lcTiene sentido, \xA1gracias Eiji!"
+      value: "-lc<h>Tiene sentido, \xA1gracias Eiji!"
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
@@ -2608,6 +2653,16 @@ PrefabInstance:
         type: 3}
       propertyPath: Lines.Array.data[7]
       value: -nd
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: LName
+      value: Nanami
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: RName
+      value: Eiji
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704123, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
@@ -2970,7 +3025,7 @@ PrefabInstance:
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[3]
-      value: -lcQue te jodan.
+      value: -lc<a>Que te jodan.
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
@@ -2985,7 +3040,7 @@ PrefabInstance:
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[1]
-      value: "-lc\xBFSer menos capullo?"
+      value: "-lc<n>\xBFSer menos capullo?"
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
@@ -3005,8 +3060,8 @@ PrefabInstance:
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[5]
-      value: "-lc [ense\xF1a el tatuaje] Si quieres llamo a mis compa\xF1eros y les
-        hablo sobre ti. Eso o te reviento con mis propias manos."
+      value: "-lc<a>[ense\xF1a el tatuaje] Si quieres llamo a mis compa\xF1eros y
+        les hablo sobre ti. Eso o te reviento con mis propias manos."
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
@@ -3017,6 +3072,16 @@ PrefabInstance:
         type: 3}
       propertyPath: Lines.Array.data[7]
       value: -nd
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: LName
+      value: Nanami
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: RName
+      value: Sr. Matsuda
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704123, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
@@ -3205,7 +3270,7 @@ PrefabInstance:
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[3]
-      value: -lcVaya, pues mucha suerte.
+      value: -lc<s>Vaya, pues mucha suerte.
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
@@ -3220,7 +3285,7 @@ PrefabInstance:
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[1]
-      value: "-lc\xBFHas pensado en comprarte unos tapones de oido?"
+      value: "-lc<n>\xBFHas pensado en comprarte unos tapones de oido?"
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
@@ -3238,6 +3303,16 @@ PrefabInstance:
       propertyPath: LCharacter
       value: 
       objectReference: {fileID: 571416070}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: LName
+      value: Nanami
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: RName
+      value: Hideki
+      objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704123, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: m_Name
@@ -3411,6 +3486,16 @@ PrefabInstance:
       propertyPath: LCharacter
       value: 
       objectReference: {fileID: 571416070}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: LName
+      value: Nanami
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: RName
+      value: Kohaku
+      objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704123, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: m_Name
@@ -3747,6 +3832,16 @@ PrefabInstance:
       propertyPath: LCharacter
       value: 
       objectReference: {fileID: 571416070}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: LName
+      value: Nanami
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: RName
+      value: Botan
+      objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704123, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: m_Name
@@ -3876,6 +3971,101 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &497990842
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 188056290}
+    m_Modifications:
+    - target: {fileID: 1186561628195410755, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186561628195410755, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186561628195410755, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186561628195410755, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186561628195410755, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186561628195410755, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186561628195410755, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186561628195410755, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186561628195410755, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186561628195410755, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186561628195410755, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: Lines.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: Lines.Array.data[0]
+      value: "-rcAquel se\xF1or de ah\xED es famoso por tratar al personal bastante
+        mal, pero sus propinas son buenas, asi que preferimos no echarle."
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: LCharacter
+      value: 
+      objectReference: {fileID: 571416070}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: LName
+      value: Nanami
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: RName
+      value: Nori
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704123, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: m_Name
+      value: Dialogue
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 79061dfcd221af64abc9dfea70e3875d, type: 3}
 --- !u!1 &506723870
 GameObject:
   m_ObjectHideFlags: 0
@@ -4020,8 +4210,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -15.04, y: 22.32, z: 6.3125}
   m_LocalScale: {x: 4, y: 4, z: 1}
-  m_Children:
-  - {fileID: 544319233}
+  m_Children: []
   m_Father: {fileID: 297293872}
   m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4135,12 +4324,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &544319233 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1186561628195410755, guid: 79061dfcd221af64abc9dfea70e3875d,
-    type: 3}
-  m_PrefabInstance: {fileID: 1304344268}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &551703775
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4221,7 +4404,7 @@ PrefabInstance:
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[3]
-      value: -lcCalla y baila conmigo tonto.
+      value: -rcCalla y baila conmigo tonto.
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
@@ -4231,18 +4414,18 @@ PrefabInstance:
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[0]
-      value: "-rcMe alegro t\xE1nto de que dijeras que s\xED Fuuka. Nunca me imagin\xE9
+      value: "-lcMe alegro t\xE1nto de que dijeras que s\xED Fuuka. Nunca me imagin\xE9
         que me casar\xEDa con alguien tan maravilloso como t\xFA."
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[1]
-      value: -lcNo me digas esas cosas que me sonrojo Haji.
+      value: -rcNo me digas esas cosas que me sonrojo Haji.
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[2]
-      value: "-rcTe quiero cari\xF1o."
+      value: "-lcTe quiero cari\xF1o."
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
@@ -4258,6 +4441,16 @@ PrefabInstance:
         type: 3}
       propertyPath: Lines.Array.data[5]
       value: -nd
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: LName
+      value: Haji
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: RName
+      value: Fuuka
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704123, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
@@ -4371,7 +4564,7 @@ PrefabInstance:
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[1]
-      value: -lc...
+      value: -lc<n>...
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
@@ -4388,6 +4581,16 @@ PrefabInstance:
       propertyPath: LCharacter
       value: 
       objectReference: {fileID: 571416070}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: LName
+      value: Nanami
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: RName
+      value: Ryozo
+      objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704123, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: m_Name
@@ -4487,7 +4690,7 @@ PrefabInstance:
     - target: {fileID: 5457976908074357949, guid: a7b4e58a037220a4db2dfef220d40f70,
         type: 3}
       propertyPath: Lines.Array.data[1]
-      value: -lcA lo mejor es que ella tampoco te oye.
+      value: -lc<n>A lo mejor es que ella tampoco te oye.
       objectReference: {fileID: 0}
     - target: {fileID: 5457976908074357949, guid: a7b4e58a037220a4db2dfef220d40f70,
         type: 3}
@@ -4497,7 +4700,7 @@ PrefabInstance:
     - target: {fileID: 5457976908074357949, guid: a7b4e58a037220a4db2dfef220d40f70,
         type: 3}
       propertyPath: Lines.Array.data[3]
-      value: -lc...
+      value: -lc<n>...
       objectReference: {fileID: 0}
     - target: {fileID: 5457976908074357949, guid: a7b4e58a037220a4db2dfef220d40f70,
         type: 3}
@@ -4509,6 +4712,16 @@ PrefabInstance:
       propertyPath: LCharacter
       value: 
       objectReference: {fileID: 571416070}
+    - target: {fileID: 5457976908074357949, guid: a7b4e58a037220a4db2dfef220d40f70,
+        type: 3}
+      propertyPath: LName
+      value: Nanami
+      objectReference: {fileID: 0}
+    - target: {fileID: 5457976908074357949, guid: a7b4e58a037220a4db2dfef220d40f70,
+        type: 3}
+      propertyPath: RName
+      value: Naoko
+      objectReference: {fileID: 0}
     - target: {fileID: 7680843051710651913, guid: a7b4e58a037220a4db2dfef220d40f70,
         type: 3}
       propertyPath: m_Name
@@ -4544,6 +4757,16 @@ PrefabInstance:
       propertyPath: interactedGameObjects.Array.data[0]
       value: 
       objectReference: {fileID: 274380150}
+    - target: {fileID: 7680843052910562374, guid: a7b4e58a037220a4db2dfef220d40f70,
+        type: 3}
+      propertyPath: LName
+      value: Nanami
+      objectReference: {fileID: 0}
+    - target: {fileID: 7680843052910562374, guid: a7b4e58a037220a4db2dfef220d40f70,
+        type: 3}
+      propertyPath: RName
+      value: Naoko
+      objectReference: {fileID: 0}
     - target: {fileID: 7680843052910562392, guid: a7b4e58a037220a4db2dfef220d40f70,
         type: 3}
       propertyPath: m_Name
@@ -5037,6 +5260,16 @@ PrefabInstance:
       propertyPath: LCharacter
       value: 
       objectReference: {fileID: 571416070}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: LName
+      value: Nanami
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: RName
+      value: Saori
+      objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704123, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: m_Name
@@ -5333,7 +5566,7 @@ PrefabInstance:
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[3]
-      value: -lcTiene sentido.
+      value: -lc<n>Tiene sentido.
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
@@ -5349,7 +5582,7 @@ PrefabInstance:
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[1]
-      value: "-lcYa dec\xEDa yo que os pareciais mucho. \xBFY que hay de la chica
+      value: "-lc<h>Ya dec\xEDa yo que os pareciais mucho. \xBFY que hay de la chica
         sentada en el ala izquierda?"
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
@@ -5367,6 +5600,16 @@ PrefabInstance:
       propertyPath: LCharacter
       value: 
       objectReference: {fileID: 571416070}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: LName
+      value: Nanami
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: RName
+      value: Megumi
+      objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704123, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: m_Name
@@ -5454,7 +5697,7 @@ PrefabInstance:
     - target: {fileID: 5457976908074357949, guid: a7b4e58a037220a4db2dfef220d40f70,
         type: 3}
       propertyPath: Lines.Array.data[0]
-      value: "-rc Ya est\xE1 de vuelta el tsunami de Yagami, eres toda una estrella.
+      value: "-rc<h>Ya est\xE1 de vuelta el tsunami de Yagami, eres toda una estrella.
         Izanagi est\xE1 esper\xE1ndote fuera. Deber\xEDas ir a verle. Tranquila,
         yo disfrutar\xE9 la fiesta por t\xED."
       objectReference: {fileID: 0}
@@ -5488,6 +5731,16 @@ PrefabInstance:
       propertyPath: RCharacter
       value: 
       objectReference: {fileID: 662445707}
+    - target: {fileID: 5457976908074357949, guid: a7b4e58a037220a4db2dfef220d40f70,
+        type: 3}
+      propertyPath: LName
+      value: Nanami
+      objectReference: {fileID: 0}
+    - target: {fileID: 5457976908074357949, guid: a7b4e58a037220a4db2dfef220d40f70,
+        type: 3}
+      propertyPath: RName
+      value: Iwai
+      objectReference: {fileID: 0}
     - target: {fileID: 7680843051710651913, guid: a7b4e58a037220a4db2dfef220d40f70,
         type: 3}
       propertyPath: m_Name
@@ -5501,7 +5754,7 @@ PrefabInstance:
     - target: {fileID: 7680843052910562374, guid: a7b4e58a037220a4db2dfef220d40f70,
         type: 3}
       propertyPath: Lines.Array.data[0]
-      value: "-rcMenudo espect\xE1culo, siempre puedo contar contigo para ello."
+      value: "-rc<h>Menudo espect\xE1culo, siempre puedo contar contigo para ello."
       objectReference: {fileID: 0}
     - target: {fileID: 7680843052910562374, guid: a7b4e58a037220a4db2dfef220d40f70,
         type: 3}
@@ -5522,6 +5775,16 @@ PrefabInstance:
         type: 3}
       propertyPath: activated
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7680843052910562374, guid: a7b4e58a037220a4db2dfef220d40f70,
+        type: 3}
+      propertyPath: LName
+      value: Nanami
+      objectReference: {fileID: 0}
+    - target: {fileID: 7680843052910562374, guid: a7b4e58a037220a4db2dfef220d40f70,
+        type: 3}
+      propertyPath: RName
+      value: Iwai
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a7b4e58a037220a4db2dfef220d40f70, type: 3}
@@ -5794,7 +6057,7 @@ PrefabInstance:
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[3]
-      value: -lc...
+      value: -lc<n>...
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
@@ -5809,7 +6072,7 @@ PrefabInstance:
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[1]
-      value: -lcEs un poco raro no?
+      value: -lc<n>Es un poco raro no?
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
@@ -5826,6 +6089,16 @@ PrefabInstance:
       propertyPath: LCharacter
       value: 
       objectReference: {fileID: 571416070}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: LName
+      value: Nanami
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: RName
+      value: Midori
+      objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704123, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: m_Name
@@ -16601,7 +16874,7 @@ PrefabInstance:
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[1]
-      value: "-lc\xA1Gracias por la informaci\xF3n, la estaba buscando!"
+      value: "-lc<h>\xA1Gracias por la informaci\xF3n, tengo que hablar con ella!"
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
@@ -16618,6 +16891,16 @@ PrefabInstance:
       propertyPath: LCharacter
       value: 
       objectReference: {fileID: 571416070}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: LName
+      value: Nanami
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: RName
+      value: Nobuo
+      objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704123, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: m_Name
@@ -16675,7 +16958,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.17, y: 0.24}
+    oldSize: {x: 0.22, y: 0.24}
     newSize: {x: 0.17, y: 0.24}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -16723,8 +17006,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: -2900632866549425494, guid: bb2e03c0a581a5a42b8f76d30368e0b4,
-    type: 3}
+  m_Sprite: {fileID: 546234427741189282, guid: 00b755362f35d6642bb1386e1075fa20, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -16827,7 +17109,7 @@ PrefabInstance:
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[1]
-      value: "-lcPerd\xF3n, cre\xED que era de seguridad..."
+      value: "-lc<s>Perd\xF3n, cre\xED que era de seguridad..."
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
@@ -16845,6 +17127,16 @@ PrefabInstance:
       propertyPath: LCharacter
       value: 
       objectReference: {fileID: 571416070}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: LName
+      value: Nanami
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: RName
+      value: Masaki
+      objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704123, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: m_Name
@@ -17195,7 +17487,7 @@ PrefabInstance:
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[1]
-      value: -lc...
+      value: -lc<n>...
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
@@ -17212,6 +17504,16 @@ PrefabInstance:
       propertyPath: LCharacter
       value: 
       objectReference: {fileID: 571416070}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: LName
+      value: Nanami
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: RName
+      value: Gooro
+      objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704123, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: m_Name
@@ -17335,116 +17637,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1001 &1304344268
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 542029914}
-    m_Modifications:
-    - target: {fileID: 1186561628195410755, guid: 79061dfcd221af64abc9dfea70e3875d,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1186561628195410755, guid: 79061dfcd221af64abc9dfea70e3875d,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1186561628195410755, guid: 79061dfcd221af64abc9dfea70e3875d,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1186561628195410755, guid: 79061dfcd221af64abc9dfea70e3875d,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1186561628195410755, guid: 79061dfcd221af64abc9dfea70e3875d,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1186561628195410755, guid: 79061dfcd221af64abc9dfea70e3875d,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1186561628195410755, guid: 79061dfcd221af64abc9dfea70e3875d,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1186561628195410755, guid: 79061dfcd221af64abc9dfea70e3875d,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1186561628195410755, guid: 79061dfcd221af64abc9dfea70e3875d,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1186561628195410755, guid: 79061dfcd221af64abc9dfea70e3875d,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1186561628195410755, guid: 79061dfcd221af64abc9dfea70e3875d,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
-        type: 3}
-      propertyPath: Lines.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
-        type: 3}
-      propertyPath: Lines.Array.data[3]
-      value: "-lcEso har\xE9, gracias."
-      objectReference: {fileID: 0}
-    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
-        type: 3}
-      propertyPath: Lines.Array.data[4]
-      value: -nd
-      objectReference: {fileID: 0}
-    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
-        type: 3}
-      propertyPath: Lines.Array.data[0]
-      value: "-rcOjal\xE1 estar ahi arriba bailando en vez de limpiar mesas y servir
-        copas, pero me tengo que pagar los estudios asi que \xA1ale, a currar!"
-      objectReference: {fileID: 0}
-    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
-        type: 3}
-      propertyPath: Lines.Array.data[1]
-      value: -nd
-      objectReference: {fileID: 0}
-    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
-        type: 3}
-      propertyPath: Lines.Array.data[2]
-      value: -rcEspero que disfrute del espectaculo de hoy.
-      objectReference: {fileID: 0}
-    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
-        type: 3}
-      propertyPath: RCharacter
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
-        type: 3}
-      propertyPath: LCharacter
-      value: 
-      objectReference: {fileID: 571416070}
-    - target: {fileID: 8173159795264704123, guid: 79061dfcd221af64abc9dfea70e3875d,
-        type: 3}
-      propertyPath: m_Name
-      value: Dialogue
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 79061dfcd221af64abc9dfea70e3875d, type: 3}
 --- !u!1 &1312127591
 GameObject:
   m_ObjectHideFlags: 0
@@ -17682,7 +17874,7 @@ PrefabInstance:
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[3]
-      value: -lc(mejor me voy antes de liarla)
+      value: -lc<n>(mejor me voy antes de liarla)
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
@@ -17698,7 +17890,7 @@ PrefabInstance:
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[1]
-      value: "-lcTampoco es que tu seas mejor que \xE9l."
+      value: "-lc<a>Tampoco es que tu seas mejor que \xE9l."
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
@@ -17715,6 +17907,16 @@ PrefabInstance:
       propertyPath: LCharacter
       value: 
       objectReference: {fileID: 571416070}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: LName
+      value: Nanami
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: RName
+      value: Hana
+      objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704123, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: m_Name
@@ -17930,7 +18132,7 @@ PrefabInstance:
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[1]
-      value: "-lc\xBFT\xE1nto ganas por ser su guardaespaldas?"
+      value: "-lc<s>\xBFT\xE1nto ganas por ser su guardaespaldas?"
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
@@ -17948,6 +18150,16 @@ PrefabInstance:
       propertyPath: LCharacter
       value: 
       objectReference: {fileID: 571416070}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: LName
+      value: Nanami
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: RName
+      value: Masaru
+      objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704123, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: m_Name
@@ -18238,7 +18450,7 @@ PrefabInstance:
     - target: {fileID: 5457976908074357949, guid: a7b4e58a037220a4db2dfef220d40f70,
         type: 3}
       propertyPath: Lines.Array.data[1]
-      value: -lcA lo mejor es que ella tampoco te oye.
+      value: -lc<n>A lo mejor es que ella tampoco te oye.
       objectReference: {fileID: 0}
     - target: {fileID: 5457976908074357949, guid: a7b4e58a037220a4db2dfef220d40f70,
         type: 3}
@@ -18248,7 +18460,7 @@ PrefabInstance:
     - target: {fileID: 5457976908074357949, guid: a7b4e58a037220a4db2dfef220d40f70,
         type: 3}
       propertyPath: Lines.Array.data[3]
-      value: -lc...
+      value: -lc<n>...
       objectReference: {fileID: 0}
     - target: {fileID: 5457976908074357949, guid: a7b4e58a037220a4db2dfef220d40f70,
         type: 3}
@@ -18260,6 +18472,16 @@ PrefabInstance:
       propertyPath: LCharacter
       value: 
       objectReference: {fileID: 571416070}
+    - target: {fileID: 5457976908074357949, guid: a7b4e58a037220a4db2dfef220d40f70,
+        type: 3}
+      propertyPath: LName
+      value: Nanami
+      objectReference: {fileID: 0}
+    - target: {fileID: 5457976908074357949, guid: a7b4e58a037220a4db2dfef220d40f70,
+        type: 3}
+      propertyPath: RName
+      value: Mika
+      objectReference: {fileID: 0}
     - target: {fileID: 7680843051710651913, guid: a7b4e58a037220a4db2dfef220d40f70,
         type: 3}
       propertyPath: m_Name
@@ -18295,6 +18517,16 @@ PrefabInstance:
       propertyPath: interactedGameObjects.Array.data[0]
       value: 
       objectReference: {fileID: 313599499}
+    - target: {fileID: 7680843052910562374, guid: a7b4e58a037220a4db2dfef220d40f70,
+        type: 3}
+      propertyPath: LName
+      value: Nanami
+      objectReference: {fileID: 0}
+    - target: {fileID: 7680843052910562374, guid: a7b4e58a037220a4db2dfef220d40f70,
+        type: 3}
+      propertyPath: RName
+      value: Mika
+      objectReference: {fileID: 0}
     - target: {fileID: 7680843052910562392, guid: a7b4e58a037220a4db2dfef220d40f70,
         type: 3}
       propertyPath: m_Name
@@ -18424,6 +18656,16 @@ PrefabInstance:
       propertyPath: Lines.Array.data[6]
       value: -nd
       objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: LName
+      value: Ryo
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: RName
+      value: Koji
+      objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704123, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: m_Name
@@ -18517,7 +18759,7 @@ PrefabInstance:
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[1]
-      value: "-lcPodr\xEDas los d\xEDas que no tengas que trabajar..."
+      value: "-lc<n>Podr\xEDas los d\xEDas que no tengas que trabajar..."
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
@@ -18535,6 +18777,16 @@ PrefabInstance:
       propertyPath: LCharacter
       value: 
       objectReference: {fileID: 571416070}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: LName
+      value: Nanami
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: RName
+      value: Hiroshi
+      objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704123, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: m_Name
@@ -18780,6 +19032,16 @@ PrefabInstance:
       propertyPath: Lines.Array.data[6]
       value: -nd
       objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: LName
+      value: Ryo
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: RName
+      value: Koji
+      objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704123, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: m_Name
@@ -18863,7 +19125,7 @@ PrefabInstance:
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[3]
-      value: -lc...
+      value: -lc<s>...
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
@@ -18879,7 +19141,7 @@ PrefabInstance:
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[1]
-      value: "-lcA mi me parece un capullo m\xE1s."
+      value: "-lc<n>A mi me parece un capullo m\xE1s."
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
@@ -18898,6 +19160,16 @@ PrefabInstance:
       propertyPath: LCharacter
       value: 
       objectReference: {fileID: 571416070}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: LName
+      value: Nanami
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: RName
+      value: Chihiro
+      objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704123, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: m_Name
@@ -18975,7 +19247,7 @@ PrefabInstance:
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[3]
-      value: "-lc\xA1No me refer\xEDa a eso!"
+      value: "-lc<a>\xA1No me refer\xEDa a eso!"
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
@@ -18990,7 +19262,7 @@ PrefabInstance:
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[1]
-      value: -lcNo, no gracias, estoy buscando a alguien.
+      value: -lc<n>No, no gracias, estoy buscando a alguien.
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
@@ -19011,6 +19283,16 @@ PrefabInstance:
         type: 3}
       propertyPath: Lines.Array.data[5]
       value: -nd
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: LName
+      value: Nanami
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: RName
+      value: Yukiko
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704123, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
@@ -19297,6 +19579,16 @@ PrefabInstance:
       propertyPath: Lines.Array.data[6]
       value: -nd
       objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: LName
+      value: Akane
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: RName
+      value: Saki
+      objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704123, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: m_Name
@@ -19549,7 +19841,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1567689024}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.0890045, y: -5.9702983, z: -10}
+  m_LocalPosition: {x: 6.0890045, y: -5.9696746, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -20231,6 +20523,100 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1657432881
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 634456404}
+    m_Modifications:
+    - target: {fileID: 1186561628195410755, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186561628195410755, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186561628195410755, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186561628195410755, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186561628195410755, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186561628195410755, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186561628195410755, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186561628195410755, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186561628195410755, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186561628195410755, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186561628195410755, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: Lines.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: Lines.Array.data[0]
+      value: "-rcHum, \xBFa qui\xE9n le ten\xEDa que dar esta copa?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: LCharacter
+      value: 
+      objectReference: {fileID: 571416070}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: LName
+      value: Nanami
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: RName
+      value: Natsuki
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704123, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: m_Name
+      value: Dialogue
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 79061dfcd221af64abc9dfea70e3875d, type: 3}
 --- !u!1 &1659985934
 GameObject:
   m_ObjectHideFlags: 0
@@ -21133,7 +21519,7 @@ PrefabInstance:
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[3]
-      value: -lcCalla y baila conmigo tonto.
+      value: -rcCalla y baila conmigo tonto.
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
@@ -21143,18 +21529,18 @@ PrefabInstance:
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[0]
-      value: "-rcMe alegro t\xE1nto de que dijeras que s\xED Fuuka. Nunca me imagin\xE9
+      value: "-lcMe alegro t\xE1nto de que dijeras que s\xED Fuuka. Nunca me imagin\xE9
         que me casar\xEDa con alguien tan maravilloso como t\xFA."
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[1]
-      value: -lcNo me digas esas cosas que me sonrojo Haji.
+      value: -rcNo me digas esas cosas que me sonrojo Haji.
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[2]
-      value: "-rcTe quiero cari\xF1o."
+      value: "-lcTe quiero cari\xF1o."
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
@@ -21170,6 +21556,16 @@ PrefabInstance:
         type: 3}
       propertyPath: Lines.Array.data[5]
       value: -nd
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: LName
+      value: Haji
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: RName
+      value: Fuuka
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704123, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
@@ -21305,7 +21701,7 @@ PrefabInstance:
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[3]
-      value: "-lcEso har\xE9, gracias."
+      value: "-lc<h>Eso har\xE9, gracias."
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
@@ -21320,7 +21716,7 @@ PrefabInstance:
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[1]
-      value: -lcHola Daichi.
+      value: -lc<n>Hola Daichi.
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
@@ -21337,6 +21733,16 @@ PrefabInstance:
       propertyPath: LCharacter
       value: 
       objectReference: {fileID: 571416070}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: LName
+      value: Nanami
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: RName
+      value: Daichi
+      objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704123, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: m_Name
@@ -21506,13 +21912,13 @@ PrefabInstance:
     - target: {fileID: 7680843052910562374, guid: a7b4e58a037220a4db2dfef220d40f70,
         type: 3}
       propertyPath: Lines.Array.data[0]
-      value: "-lc \xBFEst\xE1s bien? \xBFTe duele?"
+      value: "-lc<s>\xBFEst\xE1s bien? \xBFTe duele?"
       objectReference: {fileID: 0}
     - target: {fileID: 7680843052910562374, guid: a7b4e58a037220a4db2dfef220d40f70,
         type: 3}
       propertyPath: Lines.Array.data[1]
-      value: "-rc No te preocupes, estoy bien. Desde que perd\xED al beb\xE9 he estado
-        m\xE1s d\xE9bil de lo normal, perdona. Gracias por estar siempre ah\xED.
+      value: "-rc<s>No te preocupes, estoy bien. Desde que perd\xED al beb\xE9 he
+        estado m\xE1s d\xE9bil de lo normal, perdona. Gracias por estar siempre ah\xED.
         No te preocupes m\xE1s por m\xED y disfruta. Iwai te estaba esperando, ve
         y habla con \xE9l."
       objectReference: {fileID: 0}
@@ -21545,6 +21951,16 @@ PrefabInstance:
         type: 3}
       propertyPath: Lines.Array.data[3]
       value: -nd
+      objectReference: {fileID: 0}
+    - target: {fileID: 7680843052910562374, guid: a7b4e58a037220a4db2dfef220d40f70,
+        type: 3}
+      propertyPath: LName
+      value: Nanami
+      objectReference: {fileID: 0}
+    - target: {fileID: 7680843052910562374, guid: a7b4e58a037220a4db2dfef220d40f70,
+        type: 3}
+      propertyPath: RName
+      value: Niko
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a7b4e58a037220a4db2dfef220d40f70, type: 3}
@@ -21847,6 +22263,16 @@ PrefabInstance:
       propertyPath: LCharacter
       value: 
       objectReference: {fileID: 571416070}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: LName
+      value: Nanami
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: RName
+      value: Kasumi
+      objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704123, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: m_Name
@@ -21941,12 +22367,12 @@ PrefabInstance:
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[4]
-      value: "-lc\xA1Relaja Fudo, que estaba de guasa!"
+      value: "-lc<h>\xA1Relaja Fudo, que estaba de guasa!"
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[0]
-      value: "-lc\xBFNueva gorra Fudo?"
+      value: "-lc<h>\xBFNueva gorra Fudo?"
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
@@ -21957,7 +22383,7 @@ PrefabInstance:
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[2]
-      value: "-lcTe ser\xE9 sincera, no te imaginaba como fan de los deportes."
+      value: "-lc<n>Te ser\xE9 sincera, no te imaginaba como fan de los deportes."
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
@@ -21978,13 +22404,23 @@ PrefabInstance:
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[6]
-      value: "-lcNo te preocupes, reconocer\xEDa ese estilo ochentero a kilometros
+      value: "-lc<h>No te preocupes, reconocer\xEDa ese estilo ochentero a kilometros
         de distancia."
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[7]
       value: -nd
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: LName
+      value: Nanami
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: RName
+      value: Fudo
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704123, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
@@ -22232,7 +22668,7 @@ PrefabInstance:
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[1]
-      value: "-lcNo me sorprende que est\xE9s solo si eso es lo primero que dices
+      value: "-lc<s>No me sorprende que est\xE9s solo si eso es lo primero que dices
         al hablar con alguien."
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
@@ -22250,6 +22686,16 @@ PrefabInstance:
       propertyPath: LCharacter
       value: 
       objectReference: {fileID: 571416070}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: LName
+      value: Nanami
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: RName
+      value: Sinichi
+      objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704123, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: m_Name
@@ -22453,7 +22899,7 @@ PrefabInstance:
     - target: {fileID: 5457976908074357949, guid: a7b4e58a037220a4db2dfef220d40f70,
         type: 3}
       propertyPath: Lines.Array.data[0]
-      value: "-lcCreo que prefiero no escuchar m\xE1s de esta conversaci\xF3n."
+      value: "-lc<n>Creo que prefiero no escuchar m\xE1s de esta conversaci\xF3n."
       objectReference: {fileID: 0}
     - target: {fileID: 5457976908074357949, guid: a7b4e58a037220a4db2dfef220d40f70,
         type: 3}
@@ -22464,6 +22910,11 @@ PrefabInstance:
         type: 3}
       propertyPath: nextDialogue
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5457976908074357949, guid: a7b4e58a037220a4db2dfef220d40f70,
+        type: 3}
+      propertyPath: LName
+      value: Nanami
       objectReference: {fileID: 0}
     - target: {fileID: 7680843051710651913, guid: a7b4e58a037220a4db2dfef220d40f70,
         type: 3}
@@ -22483,7 +22934,7 @@ PrefabInstance:
     - target: {fileID: 7680843052910562374, guid: a7b4e58a037220a4db2dfef220d40f70,
         type: 3}
       propertyPath: Lines.Array.data[3]
-      value: -lcSi fuera por mi ahora mismo no irias vestido Satoshi.
+      value: -rcSi fuera por mi ahora mismo no irias vestido Satoshi.
       objectReference: {fileID: 0}
     - target: {fileID: 7680843052910562374, guid: a7b4e58a037220a4db2dfef220d40f70,
         type: 3}
@@ -22493,17 +22944,17 @@ PrefabInstance:
     - target: {fileID: 7680843052910562374, guid: a7b4e58a037220a4db2dfef220d40f70,
         type: 3}
       propertyPath: Lines.Array.data[0]
-      value: "-rc\xBFY eso que te has vestido tan bien hoy Hideo?"
+      value: "-lc\xBFY eso que te has vestido tan bien hoy Hideo?"
       objectReference: {fileID: 0}
     - target: {fileID: 7680843052910562374, guid: a7b4e58a037220a4db2dfef220d40f70,
         type: 3}
       propertyPath: Lines.Array.data[1]
-      value: "-lc\xBFAcaso no puedo vestir bien para mi novio, Satoshi?"
+      value: "-rc\xBFAcaso no puedo vestir bien para mi novio, Satoshi?"
       objectReference: {fileID: 0}
     - target: {fileID: 7680843052910562374, guid: a7b4e58a037220a4db2dfef220d40f70,
         type: 3}
       propertyPath: Lines.Array.data[2]
-      value: "-rcClaro que puedes, y si fuera por mi har\xEDa que te vistieras as\xED
+      value: "-lcClaro que puedes, y si fuera por mi har\xEDa que te vistieras as\xED
         todos los d\xEDas."
       objectReference: {fileID: 0}
     - target: {fileID: 7680843052910562374, guid: a7b4e58a037220a4db2dfef220d40f70,
@@ -22515,6 +22966,16 @@ PrefabInstance:
         type: 3}
       propertyPath: Lines.Array.data[5]
       value: -nd
+      objectReference: {fileID: 0}
+    - target: {fileID: 7680843052910562374, guid: a7b4e58a037220a4db2dfef220d40f70,
+        type: 3}
+      propertyPath: LName
+      value: Satoshi
+      objectReference: {fileID: 0}
+    - target: {fileID: 7680843052910562374, guid: a7b4e58a037220a4db2dfef220d40f70,
+        type: 3}
+      propertyPath: RName
+      value: Hideo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a7b4e58a037220a4db2dfef220d40f70, type: 3}
@@ -22961,7 +23422,7 @@ PrefabInstance:
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[3]
-      value: -lcUff, pues suerte entonces.
+      value: -lc<s>Uff, pues suerte entonces.
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
@@ -22976,7 +23437,7 @@ PrefabInstance:
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[1]
-      value: "-lc\xBFY eso?"
+      value: "-lc<n>\xBFY eso?"
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
@@ -22997,6 +23458,16 @@ PrefabInstance:
         type: 3}
       propertyPath: Lines.Array.data[5]
       value: -nd
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: LName
+      value: Nanami
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: RName
+      value: Tooru
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704123, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
@@ -23125,6 +23596,16 @@ PrefabInstance:
       propertyPath: Lines.Array.data[6]
       value: -nd
       objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: RName
+      value: Saki
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: LName
+      value: Akane
+      objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704123, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: m_Name
@@ -23218,7 +23699,7 @@ PrefabInstance:
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[1]
-      value: -lcQue chica mas rara...
+      value: -lc<n>Que chica mas rara...
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
@@ -23235,6 +23716,16 @@ PrefabInstance:
       propertyPath: LCharacter
       value: 
       objectReference: {fileID: 571416070}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: LName
+      value: Nanami
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: RName
+      value: Dai
+      objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704123, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: m_Name
@@ -23292,7 +23783,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.14, y: 0.22}
+    oldSize: {x: 0.17, y: 0.24}
     newSize: {x: 0.17, y: 0.23}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -23340,7 +23831,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 5175299250467644788, guid: 4ea70e3804c9190449ea341c4ca78c5b,
+  m_Sprite: {fileID: 7873212309182728144, guid: 0122f560981067f4cb40ade7ff41de18,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

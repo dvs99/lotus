@@ -534,6 +534,16 @@ PrefabInstance:
       propertyPath: Lines.Array.data[2]
       value: -rc...
       objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: LName
+      value: Nanami
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: RName
+      value: Bunta
+      objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704123, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: m_Name
@@ -2087,68 +2097,79 @@ PrefabInstance:
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[0]
-      value: "-rcSiento llamarte en mitad de la fiesta. No me gusta interrumpirte
+      value: "-rc<s>Siento llamarte en mitad de la fiesta. No me gusta interrumpirte
         en tu tiempo libre, pero no me ha quedado m\xE1s remedio. Lo siento."
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[1]
-      value: '-lcNo te disculpes, es mi trabajo y sabes que deseo ayudarte en todo. '
+      value: '-lc<h>No te disculpes, es mi trabajo y sabes que deseo ayudarte en
+        todo. '
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[2]
-      value: -rcGracias. Siempre puedo confiar en ti.
+      value: -rc<h>Gracias. Siempre puedo confiar en ti.
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[3]
-      value: "-rcUno de mis inversores no me ha pagado desde hace semanas. Ya ha
-        tenido varios avisos. No puedo esperar m\xE1s ese dinero, necesito que vayas
-        y le des el \xFAltimo aviso. "
+      value: "-rc<n>Uno de mis inversores no me ha pagado desde hace semanas. Ya
+        ha tenido varios avisos. No puedo esperar m\xE1s ese dinero, necesito que
+        vayas y le des el \xFAltimo aviso. "
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[4]
-      value: "-rcNadie m\xE1s puede saberlo ya que es un inversor an\xF3nimo, por
-        esto mismo te conf\xEDo esta misi\xF3n."
+      value: "-rc<n>Nadie m\xE1s puede saberlo ya que es un inversor an\xF3nimo,
+        por esto mismo te conf\xEDo esta misi\xF3n."
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[5]
-      value: "-lcEntiendo, \xBFd\xF3nde es?. Ir\xE9 ahora mismo."
+      value: "-lc<n>Entiendo, \xBFd\xF3nde es?. Ir\xE9 ahora mismo."
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[6]
-      value: "-rcEn  las traseras del local 1500. Ve por la calle de abajo y llegar\xE1s."
+      value: "-rc<n>En  las traseras del local 1500. Ve por la calle de abajo y llegar\xE1s."
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[7]
-      value: "-lcGracias por todo, estar\xE9 esperando tu llamada cuando termines."
+      value: "-lc<n>Gracias por todo, estar\xE9 esperando tu llamada cuando termines."
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[8]
-      value: "-lcSoy yo la que deber\xEDa d\xE1rtelas. Llamar\xE9 sin falta."
+      value: "-lc<h>Soy yo la que deber\xEDa d\xE1rtelas. Llamar\xE9 sin falta."
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[9]
-      value: "-rcRecuerda que en tu m\xF3vil tienes los contactos, tus mensajes y
-        cualquier informaci\xF3n m\xE1s que necesites para la misi\xF3n. Puedes usarlo
-        pulsando A."
+      value: "-rc<h>Recuerda que en tu m\xF3vil tienes los contactos, tus mensajes
+        y cualquier informaci\xF3n m\xE1s que necesites para la misi\xF3n. Puedes
+        usarlo pulsando A."
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[10]
-      value: -lcGracias.
+      value: -lc<h>Gracias.
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[11]
-      value: -rcEspero tu llamada. Ten un buen viaje.
+      value: -rc<h>Espero tu llamada. Ten un buen viaje.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: LName
+      value: Nanami
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: RName
+      value: Izanagi
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704123, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
@@ -2399,7 +2420,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &668342107
 GameObject:
@@ -3311,6 +3332,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 5391073630308964807, guid: 07afe7fde0bcc8b4fbbb18c6350dec6c,
+        type: 3}
+      propertyPath: LName
+      value: Nanami
+      objectReference: {fileID: 0}
+    - target: {fileID: 5391073630308964807, guid: 07afe7fde0bcc8b4fbbb18c6350dec6c,
+        type: 3}
+      propertyPath: RName
+      value: Hinata
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07afe7fde0bcc8b4fbbb18c6350dec6c, type: 3}
 --- !u!1001 &965790244
@@ -3384,6 +3415,16 @@ PrefabInstance:
         type: 3}
       propertyPath: Lines.Array.data[0]
       value: "-rc\xBFTe puedo invitar a una copa?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: LName
+      value: Nanami
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: RName
+      value: Rafu
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704123, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
@@ -3793,6 +3834,16 @@ PrefabInstance:
         type: 3}
       propertyPath: Lines.Array.data[2]
       value: "-rcD\xE9jame en paz."
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: LName
+      value: Nanami
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: RName
+      value: Osamu
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704123, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
@@ -4451,6 +4502,16 @@ PrefabInstance:
         type: 3}
       propertyPath: Lines.Array.data[1]
       value: "-rc\xBFQu\xE9 tal todo?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: LName
+      value: Nanami
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: RName
+      value: Mitsuru
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704123, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
@@ -5361,6 +5422,16 @@ PrefabInstance:
       propertyPath: Lines.Array.data[2]
       value: "-rc\xBFD\xF3nde estar\xE1...?"
       objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: LName
+      value: Nanami
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: RName
+      value: Yuki
+      objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704123, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: m_Name
@@ -5557,7 +5628,7 @@ Transform:
   m_Children:
   - {fileID: 514609982}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1575887034
 GameObject:
@@ -6129,7 +6200,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1738216228}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.31194782, y: 4.620946, z: -10}
+  m_LocalPosition: {x: 1.1970377, y: 4.6226907, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -7074,7 +7145,7 @@ PrefabInstance:
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.size
-      value: 7
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
@@ -7095,7 +7166,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LCharacter
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2013293010}
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: RCharacter
@@ -7105,6 +7176,21 @@ PrefabInstance:
         type: 3}
       propertyPath: Lines.Array.data[6]
       value: -nd
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: LName
+      value: Nanami
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: RName
+      value: Megumi
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: Lines.Array.data[0]
+      value: "-rcQue frio hace, deber\xEDa haberme trado una chaqueta."
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704123, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
@@ -7178,7 +7264,7 @@ PrefabInstance:
     - target: {fileID: 8783926355500208116, guid: abd6157dcd62d0b4698eb55bca875a92,
         type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 8783926355500208116, guid: abd6157dcd62d0b4698eb55bca875a92,
         type: 3}
@@ -7650,7 +7736,7 @@ PrefabInstance:
     - target: {fileID: 3879495458929200868, guid: 07afe7fde0bcc8b4fbbb18c6350dec6c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 3879495458929200868, guid: 07afe7fde0bcc8b4fbbb18c6350dec6c,
         type: 3}
