@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.Interactions;
+using UnityEngine.SceneManagement;
 
 public class PlayerControllerBaile : MonoBehaviour
 {
@@ -103,6 +104,7 @@ public class PlayerControllerBaile : MonoBehaviour
 
             case 0:
                 vida1.SetActive(false);
+                SceneManager.LoadScene("CalleCabaret");
                 break;
         }
     }
