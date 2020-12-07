@@ -696,6 +696,11 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 0.056560755
       objectReference: {fileID: 0}
+    - target: {fileID: 3879495458929200871, guid: 07afe7fde0bcc8b4fbbb18c6350dec6c,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: a2dd76a555dd8bf47853a1bfd8ce2f3c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07afe7fde0bcc8b4fbbb18c6350dec6c, type: 3}
 --- !u!4 &172566826 stripped
@@ -2475,6 +2480,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Yakuza3
       objectReference: {fileID: 0}
+    - target: {fileID: 3879495458929200867, guid: 07afe7fde0bcc8b4fbbb18c6350dec6c,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -507494654011076112, guid: 935b9a19fe751e24a9e1d944634c9bf3,
+        type: 3}
     - target: {fileID: 3879495458929200868, guid: 07afe7fde0bcc8b4fbbb18c6350dec6c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2550,6 +2561,11 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 0.056560755
       objectReference: {fileID: 0}
+    - target: {fileID: 3879495458929200871, guid: 07afe7fde0bcc8b4fbbb18c6350dec6c,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: bdddb70fffea6cb42895368890d79494, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07afe7fde0bcc8b4fbbb18c6350dec6c, type: 3}
 --- !u!4 &735972527 stripped
@@ -6129,7 +6145,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1738216228}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.31194782, y: 4.620946, z: -10}
+  m_LocalPosition: {x: 0.3035965, y: 4.6209307, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
