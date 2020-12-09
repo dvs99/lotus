@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -18,4 +19,9 @@ public class Input : MonoBehaviour
             Destroy(gameObject);
         }
         }
+
+    internal static bool GetKeyDown(KeyCode escape)
+    {
+        throw new NotImplementedException();
+    }
 }
