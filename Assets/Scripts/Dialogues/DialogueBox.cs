@@ -20,7 +20,8 @@ public class DialogueBox : MonoBehaviour
 
 
     private Image boxImage;
-    private TextMeshProUGUI textBox;
+    [SerializeField] private TextMeshProUGUI textBox = null;
+    [SerializeField] private TextMeshProUGUI nameBox = null;
 
     private Coroutine cor;
     private float corWaitTime;
@@ -42,7 +43,6 @@ public class DialogueBox : MonoBehaviour
     void Start()
     {
         boxImage = GetComponent<Image>();
-        textBox = GetComponentInChildren<TextMeshProUGUI>();
         corWaitTime = secondsBetweenChars;
 
         pInput = Input.Instance.GetComponent<PlayerInput>();
@@ -67,7 +67,10 @@ public class DialogueBox : MonoBehaviour
         else
             boxImage.sprite = defaultBoxImageSprite;
         if (lCharacter != null)
+        {
             lCharacter.IsTalking = false;
+            lCharacter.ActiveEmotion = Emotion.Neutral;
+        }
     }
 
     private void leftTalks()
@@ -80,7 +83,10 @@ public class DialogueBox : MonoBehaviour
         else
             boxImage.sprite = defaultBoxImageSprite;
         if (rCharacter != null)
+        {
             rCharacter.IsTalking = false;
+            lCharacter.ActiveEmotion = Emotion.Neutral;
+        }
     }
 
     public void Enable(CharacterDisplayHelper leftCharacter, CharacterDisplayHelper rightCharacter, bool startWithRightActive = true)
@@ -88,6 +94,7 @@ public class DialogueBox : MonoBehaviour
         auxActionMap = pInput.currentActionMap.name;
 
         textBox.enabled = true;
+        nameBox.enabled = true;
         boxImage.enabled = true;
 
         lCharacter = leftCharacter;
@@ -129,19 +136,32 @@ public class DialogueBox : MonoBehaviour
         rCharacter = null;
         boxImage.enabled = false;
         textBox.enabled = false;
+        nameBox.enabled = false;
     }
 
-    public void DisplayNewText(string textToDisplay, bool rightActive = true)
+    public void DisplayNewText(string textToDisplay, bool rightActive = true, Emotion emotion = Emotion.Neutral, string name = "")
     {
         pInput.SwitchCurrentActionMap("DisplayingText");
 
         textBox.pageToDisplay = 1;
-        //set the proper isTalking values for each of the characters
+
+        //set the proper isTalking values, emotion and names for each of the characters
         if (rightActive)
+        {
             rightTalks();
+            if (rCharacter != null)
+                rCharacter.ActiveEmotion = emotion;
+        }
         else
+        {
             leftTalks();
+            if (lCharacter != null)
+                lCharacter.ActiveEmotion = emotion;
+        }
+        nameBox.SetText(name);
+
         textBox.SetText(textToDisplay);
+
 
         if (cor != null)
         {
@@ -158,7 +178,17 @@ public class DialogueBox : MonoBehaviour
     {
         if (textBox.pageToDisplay < textBox.textInfo.pageCount)
         {
+            pInput.SwitchCurrentActionMap("DisplayingText");
+
             textBox.pageToDisplay++;
+
+            if (cor != null)
+            {
+                StopCoroutine(cor);
+            }
+            corWaitTime = secondsBetweenChars;
+            cor = StartCoroutine("showTextCharByChar");
+
             return true;
         }
         else
@@ -174,7 +204,7 @@ public class DialogueBox : MonoBehaviour
             int characterCount = textInfo.characterCount;
 
             Color32[] newVertexColors;
-            Color32 c0 = textBox.color;
+            Color32 c0 = new Color32(255, 255, 255, 255);
 
             while (currentCharacter<characterCount)
             {
@@ -185,6 +215,14 @@ public class DialogueBox : MonoBehaviour
                     yield return new WaitForSeconds(0.1f);
                     continue;
                 }
+                
+                // Skip chars in other pages
+                if (textInfo.characterInfo[currentCharacter].pageNumber != textBox.pageToDisplay-1)
+                {
+                    currentCharacter++;
+                    continue;
+                }
+
 
                 // Get the index of the material used by the current character.
                 int materialIndex = textInfo.characterInfo[currentCharacter].materialReferenceIndex;
@@ -195,11 +233,10 @@ public class DialogueBox : MonoBehaviour
                 // Get the index of the first vertex used by this text element.
                 int vertexIndex = textInfo.characterInfo[currentCharacter].vertexIndex;
 
+
                 // Only change the vertex color if the text element is visible.
                 if (textInfo.characterInfo[currentCharacter].isVisible)
                 {
-                    c0 = new Color32(255,255,255,255);
-
                     newVertexColors[vertexIndex + 0] = c0;
                     newVertexColors[vertexIndex + 1] = c0;
                     newVertexColors[vertexIndex + 2] = c0;
@@ -216,7 +253,6 @@ public class DialogueBox : MonoBehaviour
 
                 yield return new WaitForSeconds(corWaitTime);
             }
-
             pInput.SwitchCurrentActionMap(auxActionMap);
             yield break;
         }
