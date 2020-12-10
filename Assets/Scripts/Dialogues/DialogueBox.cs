@@ -55,6 +55,7 @@ public class DialogueBox : MonoBehaviour
         pInput.currentActionMap.FindAction("Submit").canceled += ctx => onCancel(ctx);
 
         pInput.SwitchCurrentActionMap(actionMap);
+
     }
 
     private void rightTalks()
@@ -257,4 +258,5 @@ public class DialogueBox : MonoBehaviour
             yield break;
         }
     }
+
 }

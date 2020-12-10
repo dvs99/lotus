@@ -17,6 +17,8 @@ public class SimpleController_UsingPlayerInput : MonoBehaviour
     private Animator animator;
     Vector2 lookDirection = new Vector2(1, 0);
 
+    RaycastHit2D hit;
+
     //---CALLBACKS---
     public void OnMove(InputAction.CallbackContext context)
     {
@@ -49,6 +51,7 @@ public class SimpleController_UsingPlayerInput : MonoBehaviour
         
 
         pInput.SwitchCurrentActionMap(actionMap);
+        
 
     }
 
@@ -59,6 +62,8 @@ public class SimpleController_UsingPlayerInput : MonoBehaviour
 
     public void Update()
     {
+
+        
         float horizontal = m_Move.x;
         float vertical = m_Move.y;
 
@@ -91,7 +96,7 @@ public class SimpleController_UsingPlayerInput : MonoBehaviour
     }
     private void Interact()
     {
-        RaycastHit2D hit = Physics2D.Raycast(rb.position + Vector2.up * 0.2f, lookDirection, 1.5f, LayerMask.GetMask("NPC")); //Tercer Parametro es la longitud del Rayo
+        RaycastHit2D hit = Physics2D.Raycast(rb.position + Vector2.up * 0.2f, lookDirection, 0.7f, LayerMask.GetMask("NPC")); //Tercer Parametro es la longitud del Rayo
         if (hit.collider != null)
         {
             print(hit.collider.gameObject.name);
@@ -103,4 +108,19 @@ public class SimpleController_UsingPlayerInput : MonoBehaviour
         //    Debug.Log("Donde estas mirando?");
         }
     }
+    void Awake()
+    {
+        GameObject[] objs = GameObject.FindGameObjectsWithTag("Player");
+
+        if (objs.Length > 1)
+        {
+
+            objs[0].transform.position = this.gameObject.transform.position;
+            Destroy(this.gameObject);
+        }
+
+        DontDestroyOnLoad(this.gameObject);
+    }
+
+
 }
