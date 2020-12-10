@@ -663,6 +663,11 @@ PrefabInstance:
       propertyPath: Lines.Array.data[3]
       value: -nd
       objectReference: {fileID: 0}
+    - target: {fileID: 2891866985134531436, guid: fbff6d63aab984c43b7006de78406355,
+        type: 3}
+      propertyPath: LName
+      value: Nanami
+      objectReference: {fileID: 0}
     - target: {fileID: 5037326254956452356, guid: fbff6d63aab984c43b7006de78406355,
         type: 3}
       propertyPath: m_Offset.x

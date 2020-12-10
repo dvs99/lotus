@@ -6,11 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Cabaret.unity
+    path: Assets/Scenes/CabaretJos.unity
     guid: 8cc183ad2d07dab49aee37bdd9669c15
   - enabled: 1
-    path: Assets/Scenes/CalleCabaret.unity
+    path: Assets/Scenes/CalleCabaretJos.unity
     guid: 3ad8e3d35cf1e3d4ab48f2f8eb3dde28
+  - enabled: 1
+    path: Assets/Scenes/Callejon.unity
+    guid: 26c99762ad6dd574dbc0d3e0f8840e69
+  - enabled: 1
+    path: Assets/Scenes/BarrioTransicion.unity
+    guid: 376c28811d3ffcd48b00c5f0b5a5c098
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: b41653c9278f1a54992eb41f749d8d00,
       type: 2}
