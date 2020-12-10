@@ -1,0 +1,587 @@
+fileFormatVersion: 2
+guid: ff2adbbbca78d5c4daea6c1515adb329
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5680989026840986647
+    second: piezas_puzzle_almacen_0
+  - first:
+      213: 4147859666730640797
+    second: piezas_puzzle_almacen_0
+  - first:
+      213: 7947591937344131363
+    second: piezas_puzzle_almacen_1
+  - first:
+      213: -1543097904877411754
+    second: piezas_puzzle_almacen_2
+  - first:
+      213: -8395801848044904715
+    second: piezas_puzzle_almacen_3
+  - first:
+      213: 9063763334408090411
+    second: piezas_puzzle_almacen_4
+  - first:
+      213: -5585073483594038718
+    second: piezas_puzzle_almacen_5
+  - first:
+      213: -183897718571300718
+    second: piezas_puzzle_almacen_6
+  - first:
+      213: 5719042518592450228
+    second: piezas_puzzle_almacen_7
+  - first:
+      213: 8357431285188589174
+    second: piezas_puzzle_almacen_8
+  - first:
+      213: -2282017029322611952
+    second: piezas_puzzle_almacen_9
+  - first:
+      213: 6023359141983579664
+    second: piezas_puzzle_almacen_10
+  - first:
+      213: -7654122090550316838
+    second: piezas_puzzle_almacen_11
+  - first:
+      213: -4140895302362282154
+    second: piezas_puzzle_almacen_12
+  - first:
+      213: -7799940929850874992
+    second: piezas_puzzle_almacen_13
+  - first:
+      213: -8516146560958007027
+    second: piezas_puzzle_almacen_14
+  - first:
+      213: 5458579851156013626
+    second: piezas_puzzle_almacen_15
+  - first:
+      213: -1412961818591017362
+    second: piezas_puzzle_almacen_16
+  - first:
+      213: -6295427215114480601
+    second: piezas_puzzle_almacen_17
+  - first:
+      213: -2499700660555131938
+    second: piezas_puzzle_almacen_18
+  - first:
+      213: 2533412685300353344
+    second: piezas_puzzle_almacen_19
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 155, y: 197, z: 156, w: 196}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: piezas_puzzle_almacen_0
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 280
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9566adf368209930800000000000000
+      internalID: 4147859666730640797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piezas_puzzle_almacen_1
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 280
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 321d72542c48b4e60800000000000000
+      internalID: 7947591937344131363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piezas_puzzle_almacen_2
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 280
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 652e12691a0d59ae0800000000000000
+      internalID: -1543097904877411754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piezas_puzzle_almacen_3
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 280
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe17bab3be1c7b80800000000000000
+      internalID: -8395801848044904715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piezas_puzzle_almacen_4
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 253
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b23ba931bb4f8cd70800000000000000
+      internalID: 9063763334408090411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piezas_puzzle_almacen_5
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 253
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2428ce5f145dd72b0800000000000000
+      internalID: -5585073483594038718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piezas_puzzle_almacen_6
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 253
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2988d81dff9a27df0800000000000000
+      internalID: -183897718571300718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piezas_puzzle_almacen_7
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 253
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4beee00bede1e5f40800000000000000
+      internalID: 5719042518592450228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piezas_puzzle_almacen_8
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 226
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 676f66c697f8bf370800000000000000
+      internalID: 8357431285188589174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piezas_puzzle_almacen_9
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 226
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01365db3a95a450e0800000000000000
+      internalID: -2282017029322611952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piezas_puzzle_almacen_10
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 226
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01e688cf935479350800000000000000
+      internalID: 6023359141983579664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piezas_puzzle_almacen_11
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 226
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad0374d038817c590800000000000000
+      internalID: -7654122090550316838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piezas_puzzle_almacen_12
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 200
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 657cc9279a59886c0800000000000000
+      internalID: -4140895302362282154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piezas_puzzle_almacen_13
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 200
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0936537dc0b01c390800000000000000
+      internalID: -7799940929850874992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piezas_puzzle_almacen_14
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 200
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d09fee2c2d190d980800000000000000
+      internalID: -8516146560958007027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piezas_puzzle_almacen_15
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 200
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a32424e2475c0cb40800000000000000
+      internalID: 5458579851156013626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piezas_puzzle_almacen_16
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 280
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6641b156b6246ce0800000000000000
+      internalID: -1412961818591017362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piezas_puzzle_almacen_17
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 255
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72456cd6d4622a8a0800000000000000
+      internalID: -6295427215114480601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piezas_puzzle_almacen_18
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 197
+        width: 41
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed35dc24e774f4dd0800000000000000
+      internalID: -2499700660555131938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piezas_puzzle_almacen_19
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 198
+        width: 33
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 049cbc82a6d782320800000000000000
+      internalID: 2533412685300353344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
