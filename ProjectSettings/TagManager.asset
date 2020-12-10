@@ -10,6 +10,7 @@ TagManager:
   - Vida3
   - Enemigo
   - Meta
+  - Prueba
   layers:
   - Default
   - TransparentFX
