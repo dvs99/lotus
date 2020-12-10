@@ -10,9 +10,9 @@ public class NPCRandomWalk : Interactable
     private Rigidbody2D myRigidbody;
     private Animator anim;
     public Collider2D bounds;
-   
 
-
+    private Transform target;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -29,9 +29,9 @@ public class NPCRandomWalk : Interactable
         if (!playerInRange)
         {
             Move();
+            UpdateAnimation();
         }
-        
-        
+
     }
 
     void Move()
@@ -76,8 +76,18 @@ public class NPCRandomWalk : Interactable
     }
     void UpdateAnimation()
     {
+        if (speed < 1)
+        {
+            
+            anim.Play("Idle");
+        }
+        else if(speed > 0)
+        {
+            anim.Play("Walk"); 
+        }
         anim.SetFloat("MoveX", directionVector.x);
         anim.SetFloat("MoveY", directionVector.y);
+
     }
 
     void OnCollisionEnter2D(Collision2D other)
@@ -87,7 +97,17 @@ public class NPCRandomWalk : Interactable
         while(temp == directionVector && loops < 100)
         {
             loops++;
-            ChangeDirection();
+            LookAtPlayer();
         }
+    }
+
+    void LookAtPlayer()
+    {
+        target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
+
+        directionVector = target.position - transform.position;
+        
+        UpdateAnimation();
+
     }
 }

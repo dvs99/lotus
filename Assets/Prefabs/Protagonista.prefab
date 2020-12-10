@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1964784718080075765}
   - component: {fileID: 1964784718080075766}
   - component: {fileID: 1964784718080075754}
+  - component: {fileID: 320431311}
   - component: {fileID: 320431309}
   m_Layer: 0
   m_Name: Protagonista
@@ -73,7 +74,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 100
+  m_SortingOrder: 4
   m_Sprite: {fileID: -7702459797701239064, guid: 02c49e7596c30e14a88698416b63c1a7,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -119,8 +120,8 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.00035071373, y: -0.2944461}
+  m_UsedByComposite: 1
+  m_Offset: {x: 0.00035071373, y: -0.17367011}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -131,7 +132,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.67063093, y: 0.31997085}
+  m_Size: {x: 0.67063093, y: 0.56152284}
   m_EdgeRadius: 0
 --- !u!114 &1964784718080075754
 MonoBehaviour:
@@ -147,6 +148,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 3
   rotateSpeed: 1
+--- !u!58 &320431311
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2399517551400638355}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.5162183
 --- !u!95 &320431309
 Animator:
   serializedVersion: 3

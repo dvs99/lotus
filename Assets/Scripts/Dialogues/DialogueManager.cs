@@ -246,4 +246,5 @@ public class DialogueManager : MonoBehaviour
             d.nextDialogue.activated = true;
         d.activated = false;
     }
+
 }
