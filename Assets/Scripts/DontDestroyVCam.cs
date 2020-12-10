@@ -8,11 +8,11 @@ using UnityEngine;
 // "music" tag is the BackgroundMusic GameObject. The AudioSource has the
 // audio attached to the AudioClip.
 
-public class DontDestroy : MonoBehaviour
+public class DontDestroyVCam : MonoBehaviour
 {
     void Awake()
     {
-        GameObject[] objs = GameObject.FindGameObjectsWithTag("MainCamera");
+        GameObject[] objs = GameObject.FindGameObjectsWithTag("VCAM");
 
         if (objs.Length > 1)
         {

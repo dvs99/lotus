@@ -926,7 +926,7 @@ GameObject:
   - component: {fileID: 199321695}
   m_Layer: 0
   m_Name: CM vcam1
-  m_TagString: Untagged
+  m_TagString: VCAM
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1007,7 +1007,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 199321691}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b629c5735ff384d418b1890794c4f5e8, type: 3}
+  m_Script: {fileID: 11500000, guid: cde1e35caf789264abff4bdcf257b569, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &205092740
@@ -23355,6 +23355,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2119768409}
   - component: {fileID: 2119768408}
+  - component: {fileID: 2119768410}
   m_Layer: 8
   m_Name: LimitesCamara
   m_TagString: Untagged
@@ -23409,6 +23410,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2119768410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2119768407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56af3c08434e48449bd704f11425df3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2121268254
 GameObject:
   m_ObjectHideFlags: 0

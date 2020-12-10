@@ -143,6 +143,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5493422}
   - component: {fileID: 5493421}
+  - component: {fileID: 5493423}
   m_Layer: 8
   m_Name: LimitesCamara
   m_TagString: Untagged
@@ -177,7 +178,7 @@ PolygonCollider2D:
     m_Paths:
     - - {x: -1.5818621, y: 10.781911}
       - {x: -9.655538, y: 10.785352}
-      - {x: -9.601169, y: -9.228897}
+      - {x: -9.667315, y: -9.228897}
       - {x: 8.832586, y: -9.228239}
       - {x: 8.793189, y: 10.7823105}
 --- !u!4 &5493422
@@ -194,6 +195,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5493423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5493420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56af3c08434e48449bd704f11425df3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &36414651
 GameObject:
   m_ObjectHideFlags: 0
@@ -7221,6 +7234,7 @@ GameObject:
   - component: {fileID: 1738216230}
   - component: {fileID: 1738216229}
   - component: {fileID: 1738216232}
+  - component: {fileID: 1738216233}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -7326,6 +7340,18 @@ MonoBehaviour:
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1738216233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1738216228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b629c5735ff384d418b1890794c4f5e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1745666001
 GameObject:
   m_ObjectHideFlags: 0
@@ -8002,7 +8028,7 @@ GameObject:
   - component: {fileID: 1912461551}
   m_Layer: 0
   m_Name: CM vcam1
-  m_TagString: Prueba
+  m_TagString: VCAM
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8083,7 +8109,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1912461547}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b629c5735ff384d418b1890794c4f5e8, type: 3}
+  m_Script: {fileID: 11500000, guid: cde1e35caf789264abff4bdcf257b569, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &1929600993 stripped
