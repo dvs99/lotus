@@ -74,20 +74,29 @@ public class DialogueManager : MonoBehaviour
                 switch (activeDialogue.Lines[dialogueParseIndex].Substring(0, 3))
                 {
                     case "-lc": //left talks
-                        if (activeDialogue.Lines[dialogueParseIndex][3] == '<')
-                            //set emotion
-                            box.DisplayNewText(activeDialogue.Lines[dialogueParseIndex].Substring(6), false);
+                        if (activeDialogue.Lines[dialogueParseIndex][3] == '<' && activeDialogue.Lines[dialogueParseIndex][5] == '>')
+                        {
+                            box.DisplayNewText(activeDialogue.Lines[dialogueParseIndex].Substring(6), false, getEmotion(activeDialogue.Lines[dialogueParseIndex][4]), activeDialogue.LName);
+                        }
                         else
-                            box.DisplayNewText(activeDialogue.Lines[dialogueParseIndex].Substring(3), false);
+                        {
+                            //set emotion
+                            box.DisplayNewText(activeDialogue.Lines[dialogueParseIndex].Substring(3), false, Emotion.Neutral, activeDialogue.LName);
+                        }
                         //Debug.Log("MODE LC" + dialogueParseIndex +" - " + activeDialogue.Lines[dialogueParseIndex]);
                         break;
 
                     case "-rc": //right talks
-                        if (activeDialogue.Lines[dialogueParseIndex][3] == '<')
+                        if (activeDialogue.Lines[dialogueParseIndex][3] == '<' && activeDialogue.Lines[dialogueParseIndex][5] == '>')
+                        {
                             //set emotion
-                            box.DisplayNewText(activeDialogue.Lines[dialogueParseIndex].Substring(6), true);
+                            box.DisplayNewText(activeDialogue.Lines[dialogueParseIndex].Substring(6), true, getEmotion(activeDialogue.Lines[dialogueParseIndex][4]), activeDialogue.RName);
+                        }
                         else
-                            box.DisplayNewText(activeDialogue.Lines[dialogueParseIndex].Substring(3), true);
+                        {
+                            //set emotion
+                            box.DisplayNewText(activeDialogue.Lines[dialogueParseIndex].Substring(3), true, Emotion.Neutral, activeDialogue.RName);
+                        }
                         //Debug.Log("MODE RC" + dialogueParseIndex + " - " + activeDialogue.Lines[dialogueParseIndex]);
                         break;
 
@@ -167,6 +176,20 @@ public class DialogueManager : MonoBehaviour
         }
         else
             endDialogue();
+    }
+
+    private Emotion getEmotion(char emotionChar)
+    {
+        if (emotionChar == 'h')
+            return Emotion.Happy;
+        if (emotionChar == 's')
+            return Emotion.Sad;
+        if (emotionChar == 'a')
+            return Emotion.Angry;
+        if (emotionChar == 'n')
+            return Emotion.Neutral;
+        Debug.LogError("Attempted to use unexisting emotion. Defaulted to happy.");
+        return Emotion.Happy;
     }
 
     public void StartDialogue(Transform dialogue, Action cb)

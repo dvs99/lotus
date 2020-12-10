@@ -23,6 +23,8 @@ public class CharacterDisplayHelper : MonoBehaviour
         set //when the active emotion is set also change the sprite accordingly
         {
             activeEmotion = value;
+            if ((int)activeEmotion >= emotionSprites.Length)
+                activeEmotion = Emotion.Happy;
             characterImage.sprite = emotionSprites[(int)activeEmotion];
         }
     }
