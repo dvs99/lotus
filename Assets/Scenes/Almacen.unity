@@ -2107,6 +2107,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7680843052910562374, guid: a7b4e58a037220a4db2dfef220d40f70,
         type: 3}
+      propertyPath: interactedGameObjects.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7680843052910562374, guid: a7b4e58a037220a4db2dfef220d40f70,
+        type: 3}
       propertyPath: Lines.Array.data[3]
       value: "-rc\xBFDinero? JAJAJAJAJAJA. No me hagas reir, no sabes d\xF3nde te
         est\xE1s metiendo. Dile a tu querido jefe que se acab\xF3 el trato."
@@ -2158,6 +2163,16 @@ PrefabInstance:
       propertyPath: LCharacter
       value: 
       objectReference: {fileID: 1655062965}
+    - target: {fileID: 7680843052910562374, guid: a7b4e58a037220a4db2dfef220d40f70,
+        type: 3}
+      propertyPath: Lines.Array.data[7]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7680843052910562374, guid: a7b4e58a037220a4db2dfef220d40f70,
+        type: 3}
+      propertyPath: interactedGameObjects.Array.data[0]
+      value: 
+      objectReference: {fileID: 1915303156}
     - target: {fileID: 9150506975693332375, guid: a7b4e58a037220a4db2dfef220d40f70,
         type: 3}
       propertyPath: Lines.Array.data[0]
@@ -2173,6 +2188,11 @@ PrefabInstance:
       propertyPath: RName
       value: Inversor de Izanagi
       objectReference: {fileID: 0}
+    - target: {fileID: 9150506975693332375, guid: a7b4e58a037220a4db2dfef220d40f70,
+        type: 3}
+      propertyPath: LCharacter
+      value: 
+      objectReference: {fileID: 1655062965}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a7b4e58a037220a4db2dfef220d40f70, type: 3}
 --- !u!1 &1846323983
@@ -2284,6 +2304,12 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1915303156 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5457976908074357923, guid: a7b4e58a037220a4db2dfef220d40f70,
+    type: 3}
+  m_PrefabInstance: {fileID: 1759827827}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1925349652
 GameObject:
   m_ObjectHideFlags: 0
@@ -2651,6 +2677,75 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &2060876103
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 615765821686563045, guid: 2b5a0cc6642b402468e66b103bd10edd,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.8367069
+      objectReference: {fileID: 0}
+    - target: {fileID: 615765821686563045, guid: 2b5a0cc6642b402468e66b103bd10edd,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.9770103
+      objectReference: {fileID: 0}
+    - target: {fileID: 615765821686563045, guid: 2b5a0cc6642b402468e66b103bd10edd,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.5112884
+      objectReference: {fileID: 0}
+    - target: {fileID: 615765821686563045, guid: 2b5a0cc6642b402468e66b103bd10edd,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 615765821686563045, guid: 2b5a0cc6642b402468e66b103bd10edd,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 615765821686563045, guid: 2b5a0cc6642b402468e66b103bd10edd,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 615765821686563045, guid: 2b5a0cc6642b402468e66b103bd10edd,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 615765821686563045, guid: 2b5a0cc6642b402468e66b103bd10edd,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 615765821686563045, guid: 2b5a0cc6642b402468e66b103bd10edd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 615765821686563045, guid: 2b5a0cc6642b402468e66b103bd10edd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 615765821686563045, guid: 2b5a0cc6642b402468e66b103bd10edd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6173407561843915347, guid: 2b5a0cc6642b402468e66b103bd10edd,
+        type: 3}
+      propertyPath: m_Name
+      value: DialogueManager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2b5a0cc6642b402468e66b103bd10edd, type: 3}
 --- !u!1 &2100116336
 GameObject:
   m_ObjectHideFlags: 0
