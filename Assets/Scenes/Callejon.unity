@@ -131,6 +131,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5493422}
   - component: {fileID: 5493421}
+  - component: {fileID: 5493423}
   m_Layer: 8
   m_Name: LimitesCamara
   m_TagString: Untagged
@@ -164,10 +165,12 @@ PolygonCollider2D:
   m_Points:
     m_Paths:
     - - {x: -1.6847382, y: 7.7813563}
-      - {x: -9.855465, y: 7.7505045}
-      - {x: -9.913401, y: -3.6711993}
-      - {x: 8.353646, y: -3.5645528}
-      - {x: 8.356325, y: 7.76964}
+      - {x: -20.813103, y: 7.7505045}
+      - {x: -26.205256, y: -3.6711993}
+      - {x: 16.992836, y: -3.6655045}
+      - {x: 17.976091, y: -3.5654173}
+      - {x: 19.536224, y: -3.5645528}
+      - {x: 20.59932, y: 7.9303083}
 --- !u!4 &5493422
 Transform:
   m_ObjectHideFlags: 0
@@ -182,6 +185,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5493423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5493420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56af3c08434e48449bd704f11425df3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &36414651
 GameObject:
   m_ObjectHideFlags: 0
@@ -1213,7 +1228,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &735972527 stripped
 Transform:
@@ -1507,6 +1522,80 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &885708970
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 615765821686563045, guid: 2b5a0cc6642b402468e66b103bd10edd,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.8367069
+      objectReference: {fileID: 0}
+    - target: {fileID: 615765821686563045, guid: 2b5a0cc6642b402468e66b103bd10edd,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.9770103
+      objectReference: {fileID: 0}
+    - target: {fileID: 615765821686563045, guid: 2b5a0cc6642b402468e66b103bd10edd,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.5112884
+      objectReference: {fileID: 0}
+    - target: {fileID: 615765821686563045, guid: 2b5a0cc6642b402468e66b103bd10edd,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 615765821686563045, guid: 2b5a0cc6642b402468e66b103bd10edd,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 615765821686563045, guid: 2b5a0cc6642b402468e66b103bd10edd,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 615765821686563045, guid: 2b5a0cc6642b402468e66b103bd10edd,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 615765821686563045, guid: 2b5a0cc6642b402468e66b103bd10edd,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 615765821686563045, guid: 2b5a0cc6642b402468e66b103bd10edd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 615765821686563045, guid: 2b5a0cc6642b402468e66b103bd10edd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 615765821686563045, guid: 2b5a0cc6642b402468e66b103bd10edd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3252915367728652959, guid: 2b5a0cc6642b402468e66b103bd10edd,
+        type: 3}
+      propertyPath: box
+      value: 
+      objectReference: {fileID: 2013293011}
+    - target: {fileID: 6173407561843915347, guid: 2b5a0cc6642b402468e66b103bd10edd,
+        type: 3}
+      propertyPath: m_Name
+      value: DialogueManager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2b5a0cc6642b402468e66b103bd10edd, type: 3}
 --- !u!1001 &939921395
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2249,7 +2338,7 @@ Transform:
   m_Children:
   - {fileID: 172566826}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1400722391
 GameObject:
@@ -2954,8 +3043,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1738216231}
   - component: {fileID: 1738216230}
-  - component: {fileID: 1738216229}
   - component: {fileID: 1738216232}
+  - component: {fileID: 1738216229}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2963,14 +3052,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &1738216229
-AudioListener:
+--- !u!114 &1738216229
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1738216228}
   m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b629c5735ff384d418b1890794c4f5e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!20 &1738216230
 Camera:
   m_ObjectHideFlags: 0
@@ -3022,7 +3115,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1738216228}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.1362617, y: 0.6531253, z: -10}
+  m_LocalPosition: {x: 3.5094864, y: 0.5515151, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3304,7 +3397,7 @@ PrefabInstance:
     - target: {fileID: 3012955060858193580, guid: e493e91eee4a05c4bb74ac255d72f49b,
         type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 3012955060858193580, guid: e493e91eee4a05c4bb74ac255d72f49b,
         type: 3}
@@ -3468,9 +3561,10 @@ GameObject:
   - component: {fileID: 1912461550}
   - component: {fileID: 1912461549}
   - component: {fileID: 1912461548}
+  - component: {fileID: 1912461551}
   m_Layer: 0
   m_Name: CM vcam1
-  m_TagString: Untagged
+  m_TagString: VCAM
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3542,6 +3636,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1912461551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1912461547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cde1e35caf789264abff4bdcf257b569, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1914432965
 GameObject:
   m_ObjectHideFlags: 0
@@ -3670,7 +3776,7 @@ PrefabInstance:
     - target: {fileID: 8783926355500208116, guid: abd6157dcd62d0b4698eb55bca875a92,
         type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 8783926355500208116, guid: abd6157dcd62d0b4698eb55bca875a92,
         type: 3}
@@ -3749,6 +3855,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1e14b825fe93cfa4dae87375530cda40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2013293011 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8783926355270795441, guid: abd6157dcd62d0b4698eb55bca875a92,
+    type: 3}
+  m_PrefabInstance: {fileID: 2013293009}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dd624776bc61e743bc138396c569405, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &1053901423125329527

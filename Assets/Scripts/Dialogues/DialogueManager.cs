@@ -10,7 +10,6 @@ public class DialogueManager : MonoBehaviour
 {
     public static DialogueManager Instance { get; private set; }
 
-    [SerializeField]
     private DialogueBox box=null;
 
     private Dialogue activeDialogue=null;
@@ -35,6 +34,7 @@ public class DialogueManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
     }
 
+
     void Start()
     {
         regex = new Regex(@"\[\d+\]");
@@ -48,8 +48,15 @@ public class DialogueManager : MonoBehaviour
         pInput.currentActionMap.FindAction("Submit").performed += ctx => OnSubmit(ctx);
 
         pInput.SwitchCurrentActionMap(actionMap);
+
+        box = FindObjectOfType<DialogueBox>();
+        SceneManager.sceneLoaded += SceneLoad;
     }
 
+    void SceneLoad(Scene s, LoadSceneMode ls)
+    {
+        box = FindObjectOfType<DialogueBox>();
+    }
 
     private void OnSubmit(InputAction.CallbackContext context)
     {
