@@ -104,7 +104,7 @@ public class PlayerControllerBaile : MonoBehaviour
 
             case 0:
                 vida1.SetActive(false);
-                SceneManager.LoadScene("Almacen");
+                SceneManager.LoadScene("Almacen", LoadSceneMode.Single);
                 break;
         }
     }

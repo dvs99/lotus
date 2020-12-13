@@ -67,7 +67,7 @@ public class MetaColor : MonoBehaviour
             case 0:
                 vidaIb1.SetActive(false);
                 this.gameObject.SetActive(false);
-                SceneManager.LoadScene("Almacen");
+                SceneManager.LoadScene("Almacen2", LoadSceneMode.Single);
                 break;
         }
     }
