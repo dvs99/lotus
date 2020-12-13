@@ -12,7 +12,7 @@ public class PlayerControllerBaile : MonoBehaviour
     private float speed = 10;
     private Vector2 m_Move;
 
-    [SerializeField] private PlayerInput pInput;
+    private PlayerInput pInput;
 
     private GameObject vida1, vida2, vida3;
 
@@ -48,7 +48,7 @@ public class PlayerControllerBaile : MonoBehaviour
 
         //Subscribe the input callback functions to the corresponding input events
         string actionMap = pInput.currentActionMap.name;
-        pInput.SwitchCurrentActionMap("Player");
+        pInput.SwitchCurrentActionMap("Puzle");
 
         pInput.currentActionMap.FindAction("Move").performed += ctx => OnMove(ctx);
         pInput.currentActionMap.FindAction("Move").canceled += ctx => OnMove(ctx);
@@ -104,7 +104,7 @@ public class PlayerControllerBaile : MonoBehaviour
 
             case 0:
                 vida1.SetActive(false);
-                SceneManager.LoadScene("CalleCabaret");
+                SceneManager.LoadScene("Almacen");
                 break;
         }
     }

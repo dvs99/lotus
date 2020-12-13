@@ -1,0 +1,800 @@
+fileFormatVersion: 2
+guid: 30d4bc23b5140d44091abbc90eefde34
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7670390052446234353
+    second: objetos_almacen_0
+  - first:
+      213: -1217905991355949555
+    second: objetos_almacen_1
+  - first:
+      213: -1945388432425126723
+    second: objetos_almacen_2
+  - first:
+      213: -3018188484564453104
+    second: objetos_almacen_3
+  - first:
+      213: 6574142182007158496
+    second: objetos_almacen_4
+  - first:
+      213: -6803500820530608146
+    second: objetos_almacen_5
+  - first:
+      213: 2770268361688848341
+    second: objetos_almacen_6
+  - first:
+      213: -4735524982188755523
+    second: objetos_almacen_7
+  - first:
+      213: 6944153963906905524
+    second: objetos_almacen_8
+  - first:
+      213: 6715558649858291829
+    second: objetos_almacen_9
+  - first:
+      213: -2870161787281020837
+    second: objetos_almacen_10
+  - first:
+      213: -5625592402499455262
+    second: objetos_almacen_11
+  - first:
+      213: 4221684150565669014
+    second: objetos_almacen_12
+  - first:
+      213: -3802677141601266031
+    second: objetos_almacen_13
+  - first:
+      213: 6258116240451674436
+    second: objetos_almacen_14
+  - first:
+      213: -3188252508176997395
+    second: objetos_almacen_15
+  - first:
+      213: 8935183894537338583
+    second: objetos_almacen_16
+  - first:
+      213: -3590401943174899081
+    second: objetos_almacen_17
+  - first:
+      213: 8756160083191835816
+    second: objetos_almacen_18
+  - first:
+      213: -7848539111148682417
+    second: objetos_almacen_19
+  - first:
+      213: 4721882088441414230
+    second: objetos_almacen_20
+  - first:
+      213: 1264774430496907006
+    second: objetos_almacen_21
+  - first:
+      213: -5700500442807674348
+    second: objetos_almacen_22
+  - first:
+      213: 8092241788213172473
+    second: objetos_almacen_23
+  - first:
+      213: 2486827589980601238
+    second: objetos_almacen_24
+  - first:
+      213: -6393280526455877054
+    second: objetos_almacen_25
+  - first:
+      213: 8197831760800921804
+    second: objetos_almacen_26
+  - first:
+      213: -1337202057475197413
+    second: objetos_almacen_27
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: objetos_almacen_0
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 1905
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f66fbcfc13b27a60800000000000000
+      internalID: 7670390052446234353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objetos_almacen_1
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 1070
+        width: 173
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0e986f14f0291fe0800000000000000
+      internalID: -1217905991355949555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objetos_almacen_2
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 1070
+        width: 195
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db4752f17879005e0800000000000000
+      internalID: -1945388432425126723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objetos_almacen_3
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 959
+        width: 507
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0197c58709d3d16d0800000000000000
+      internalID: -3018188484564453104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objetos_almacen_4
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 864
+        width: 77
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e6b275bb7b0c3b50800000000000000
+      internalID: 6574142182007158496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objetos_almacen_5
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 802
+        width: 41
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee7c13bdc0c1591a0800000000000000
+      internalID: -6803500820530608146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objetos_almacen_6
+      rect:
+        serializedVersion: 2
+        x: 1433
+        y: 802
+        width: 40
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d797feb568f17620800000000000000
+      internalID: 2770268361688848341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objetos_almacen_7
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 803
+        width: 40
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db5b6ab5e19084eb0800000000000000
+      internalID: -4735524982188755523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objetos_almacen_8
+      rect:
+        serializedVersion: 2
+        x: 1545
+        y: 803
+        width: 39
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b5ba4c0d379e5060800000000000000
+      internalID: 6944153963906905524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objetos_almacen_9
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 852
+        width: 50
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 578fa11f205723d50800000000000000
+      internalID: 6715558649858291829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objetos_almacen_10
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 754
+        width: 79
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b58e63daf032b28d0800000000000000
+      internalID: -2870161787281020837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objetos_almacen_11
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 773
+        width: 39
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e632edf381ede1b0800000000000000
+      internalID: -5625592402499455262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objetos_almacen_12
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 740
+        width: 43
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6980d541e5f669a30800000000000000
+      internalID: 4221684150565669014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objetos_almacen_13
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 745
+        width: 6
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 196db53894d2a3bc0800000000000000
+      internalID: -3802677141601266031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objetos_almacen_14
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 727
+        width: 100
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 441a933509b49d650800000000000000
+      internalID: 6258116240451674436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objetos_almacen_15
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 783
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de3acd36c3d01c3d0800000000000000
+      internalID: -3188252508176997395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objetos_almacen_16
+      rect:
+        serializedVersion: 2
+        x: 1603
+        y: 704
+        width: 52
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7de70b45966200c70800000000000000
+      internalID: 8935183894537338583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objetos_almacen_17
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 704
+        width: 52
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77a103894745c2ec0800000000000000
+      internalID: -3590401943174899081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objetos_almacen_18
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 680
+        width: 39
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8acaa1b1431248970800000000000000
+      internalID: 8756160083191835816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objetos_almacen_19
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 639
+        width: 38
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4309320343641390800000000000000
+      internalID: -7848539111148682417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objetos_almacen_20
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 653
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65284d8edbe778140800000000000000
+      internalID: 4721882088441414230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objetos_almacen_21
+      rect:
+        serializedVersion: 2
+        x: 1394
+        y: 651
+        width: 173
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efed3cab4a16d8110800000000000000
+      internalID: 1264774430496907006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objetos_almacen_22
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 612
+        width: 187
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41add70cc01c3e0b0800000000000000
+      internalID: -5700500442807674348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objetos_almacen_23
+      rect:
+        serializedVersion: 2
+        x: 1354
+        y: 666
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f89407280b6d4070800000000000000
+      internalID: 8092241788213172473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objetos_almacen_24
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 607
+        width: 26
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69b3f6e648cf28220800000000000000
+      internalID: 2486827589980601238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objetos_almacen_25
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 537
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 242dc27fb318647a0800000000000000
+      internalID: -6393280526455877054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objetos_almacen_26
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 559
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc834fe6d8c84c170800000000000000
+      internalID: 8197831760800921804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objetos_almacen_27
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 471
+        width: 333
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b16f44340dd417de0800000000000000
+      internalID: -1337202057475197413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
