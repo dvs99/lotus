@@ -96,7 +96,7 @@ public class SimpleController_UsingPlayerInput : MonoBehaviour
     }
     private void Interact()
     {
-        RaycastHit2D hit = Physics2D.Raycast(rb.position + Vector2.up * 0.2f, lookDirection, 0.7f, LayerMask.GetMask("NPC")); //Tercer Parametro es la longitud del Rayo
+        RaycastHit2D hit = Physics2D.Raycast(rb.position + Vector2.up * 0.2f, lookDirection, 0.75f, LayerMask.GetMask("NPC")); //Tercer Parametro es la longitud del Rayo
         if (hit.collider != null)
         {
             print(hit.collider.gameObject.name);
