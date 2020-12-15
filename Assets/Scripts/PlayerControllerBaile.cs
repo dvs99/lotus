@@ -12,7 +12,7 @@ public class PlayerControllerBaile : MonoBehaviour
     private float speed = 10;
     private Vector2 m_Move;
 
-    [SerializeField] private PlayerInput pInput;
+    private PlayerInput pInput;
 
     private GameObject vida1, vida2, vida3;
 
@@ -20,8 +20,7 @@ public class PlayerControllerBaile : MonoBehaviour
 
     public int vidas = 3;
 
-    //private float movementX;
-    //private float movementY;
+    private GameObject prota;
 
     public void OnMove(InputAction.CallbackContext context)
     {
@@ -37,6 +36,8 @@ public class PlayerControllerBaile : MonoBehaviour
         pInput = GetComponent<PlayerInput>();
 
         rb = GetComponent<Rigidbody2D>();
+
+        prota = GameObject.Find("Protagonista");
     }
 
     // Start is called before the first frame update
@@ -45,10 +46,11 @@ public class PlayerControllerBaile : MonoBehaviour
         vida1.SetActive(true);
         vida2.SetActive(true);
         vida3.SetActive(true);
+        prota.SetActive(false);
 
         //Subscribe the input callback functions to the corresponding input events
         string actionMap = pInput.currentActionMap.name;
-        pInput.SwitchCurrentActionMap("Player");
+        pInput.SwitchCurrentActionMap("Puzle");
 
         pInput.currentActionMap.FindAction("Move").performed += ctx => OnMove(ctx);
         pInput.currentActionMap.FindAction("Move").canceled += ctx => OnMove(ctx);
@@ -104,7 +106,8 @@ public class PlayerControllerBaile : MonoBehaviour
 
             case 0:
                 vida1.SetActive(false);
-                SceneManager.LoadScene("CalleCabaret");
+                prota.SetActive(true);
+                SceneManager.LoadScene("Almacen", LoadSceneMode.Single);
                 break;
         }
     }

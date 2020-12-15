@@ -33,7 +33,10 @@ public class PausaMenu : MonoBehaviour
         pInput.currentActionMap.FindAction("Menu").performed += ctx => onPause();
 
 
+
         pInput.SwitchCurrentActionMap(actionMap);
+
+     
 
         pauseMenuUI.SetActive(false);
         contactosUI.SetActive(false);

@@ -40,11 +40,6 @@ public class MetaColor : MonoBehaviour
         transform.position = pos0;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     public void cambiarVidaIb()
     {
@@ -67,7 +62,7 @@ public class MetaColor : MonoBehaviour
             case 0:
                 vidaIb1.SetActive(false);
                 this.gameObject.SetActive(false);
-                SceneManager.LoadScene("CalleCabaret");
+                SceneManager.LoadScene("Almacen2", LoadSceneMode.Single);
                 break;
         }
     }

@@ -19,12 +19,10 @@ public class Enemigo : MonoBehaviour
     {
         rigidbody2D = GetComponent<Rigidbody2D>();
         timer = changeTime;
-        QualitySettings.vSyncCount = 0;
-        Application.targetFrameRate = 10;
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         Vector2 lastPos = transform.position;
         timer -= Time.deltaTime;
