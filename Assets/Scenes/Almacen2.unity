@@ -286,7 +286,7 @@ PrefabInstance:
     - target: {fileID: 3012955060858193580, guid: e493e91eee4a05c4bb74ac255d72f49b,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 3012955060858193580, guid: e493e91eee4a05c4bb74ac255d72f49b,
         type: 3}
@@ -360,6 +360,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e493e91eee4a05c4bb74ac255d72f49b, type: 3}
+--- !u!4 &326185886 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1186561628195410755, guid: 79061dfcd221af64abc9dfea70e3875d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1064607003}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &349945017
 GameObject:
   m_ObjectHideFlags: 0
@@ -417,12 +423,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.41304588, y: 0.21265292}
   m_EdgeRadius: 0
---- !u!4 &356363848 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1292740388381830644, guid: a7b4e58a037220a4db2dfef220d40f70,
-    type: 3}
-  m_PrefabInstance: {fileID: 1759827827}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &360101452
 GameObject:
   m_ObjectHideFlags: 0
@@ -529,7 +529,7 @@ Transform:
   m_LocalPosition: {x: 8.82, y: 0.24, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children:
-  - {fileID: 356363848}
+  - {fileID: 326185886}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1239,6 +1239,116 @@ Transform:
   m_Father: {fileID: 1381522036}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &790795412
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2891866985134531436, guid: fbff6d63aab984c43b7006de78406355,
+        type: 3}
+      propertyPath: Lines.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2891866985134531436, guid: fbff6d63aab984c43b7006de78406355,
+        type: 3}
+      propertyPath: Lines.Array.data[0]
+      value: -lcCreo que ya has tenido suficiente. Dame lo que le debes a Izanagi.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2891866985134531436, guid: fbff6d63aab984c43b7006de78406355,
+        type: 3}
+      propertyPath: Lines.Array.data[1]
+      value: "-rcAqu\xED tienes las llaves, ve a la otra puerta y c\xF3gelo t\xFA
+        misma. Te arrepentir\xE1s de hacerlo."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2891866985134531436, guid: fbff6d63aab984c43b7006de78406355,
+        type: 3}
+      propertyPath: Lines.Array.data[2]
+      value: -nd
+      objectReference: {fileID: 0}
+    - target: {fileID: 2891866985134531436, guid: fbff6d63aab984c43b7006de78406355,
+        type: 3}
+      propertyPath: LName
+      value: Nanami
+      objectReference: {fileID: 0}
+    - target: {fileID: 2891866985134531436, guid: fbff6d63aab984c43b7006de78406355,
+        type: 3}
+      propertyPath: RName
+      value: Inversor de Izanagi
+      objectReference: {fileID: 0}
+    - target: {fileID: 2891866985134531436, guid: fbff6d63aab984c43b7006de78406355,
+        type: 3}
+      propertyPath: LCharacter
+      value: 
+      objectReference: {fileID: 1655062965}
+    - target: {fileID: 2891866985134531436, guid: fbff6d63aab984c43b7006de78406355,
+        type: 3}
+      propertyPath: nextDialogue
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6434830454336364673, guid: fbff6d63aab984c43b7006de78406355,
+        type: 3}
+      propertyPath: m_Name
+      value: Thought
+      objectReference: {fileID: 0}
+    - target: {fileID: 6434830454336364703, guid: fbff6d63aab984c43b7006de78406355,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 6434830454336364703, guid: fbff6d63aab984c43b7006de78406355,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6434830454336364703, guid: fbff6d63aab984c43b7006de78406355,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6434830454336364703, guid: fbff6d63aab984c43b7006de78406355,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6434830454336364703, guid: fbff6d63aab984c43b7006de78406355,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6434830454336364703, guid: fbff6d63aab984c43b7006de78406355,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6434830454336364703, guid: fbff6d63aab984c43b7006de78406355,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6434830454336364703, guid: fbff6d63aab984c43b7006de78406355,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6434830454336364703, guid: fbff6d63aab984c43b7006de78406355,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6434830454336364703, guid: fbff6d63aab984c43b7006de78406355,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6434830454336364703, guid: fbff6d63aab984c43b7006de78406355,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fbff6d63aab984c43b7006de78406355, type: 3}
 --- !u!1 &845557288
 GameObject:
   m_ObjectHideFlags: 0
@@ -1539,6 +1649,135 @@ Transform:
   m_Father: {fileID: 1381522036}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1064607003
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 360101455}
+    m_Modifications:
+    - target: {fileID: 1186561628195410755, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186561628195410755, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186561628195410755, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186561628195410755, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186561628195410755, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186561628195410755, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186561628195410755, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186561628195410755, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186561628195410755, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186561628195410755, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186561628195410755, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186561628195410755, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186561628195410755, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: Lines.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: LCharacter
+      value: 
+      objectReference: {fileID: 1655062965}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: RCharacter
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: nextDialogue
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: Lines.Array.data[0]
+      value: "-rc\xBFQu\xE9 m\xE1s quieres? D\xE9jame en paz."
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: Lines.Array.data[1]
+      value: -rcSomething else
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: activated
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: Lines.Array.data[2]
+      value: -nd
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: LName
+      value: Nanami
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: RName
+      value: Inversor de Izanagi
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704123, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: m_Name
+      value: D2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 79061dfcd221af64abc9dfea70e3875d, type: 3}
 --- !u!1 &1209051217
 GameObject:
   m_ObjectHideFlags: 0
@@ -1795,12 +2034,12 @@ PrefabInstance:
     - target: {fileID: 8738503483946133229, guid: 8482962064de8de4bb9999cdd3a7ff7d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.88
+      value: 8.424
       objectReference: {fileID: 0}
     - target: {fileID: 8738503483946133229, guid: 8482962064de8de4bb9999cdd3a7ff7d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.36
+      value: 0.238
       objectReference: {fileID: 0}
     - target: {fileID: 8738503483946133229, guid: 8482962064de8de4bb9999cdd3a7ff7d,
         type: 3}
@@ -2182,207 +2421,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1001 &1759827827
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 360101455}
-    m_Modifications:
-    - target: {fileID: 1292740388381830644, guid: a7b4e58a037220a4db2dfef220d40f70,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1292740388381830644, guid: a7b4e58a037220a4db2dfef220d40f70,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1292740388381830644, guid: a7b4e58a037220a4db2dfef220d40f70,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1292740388381830644, guid: a7b4e58a037220a4db2dfef220d40f70,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1292740388381830644, guid: a7b4e58a037220a4db2dfef220d40f70,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1292740388381830644, guid: a7b4e58a037220a4db2dfef220d40f70,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1292740388381830644, guid: a7b4e58a037220a4db2dfef220d40f70,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1292740388381830644, guid: a7b4e58a037220a4db2dfef220d40f70,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1292740388381830644, guid: a7b4e58a037220a4db2dfef220d40f70,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1292740388381830644, guid: a7b4e58a037220a4db2dfef220d40f70,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1292740388381830644, guid: a7b4e58a037220a4db2dfef220d40f70,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5457976908074357949, guid: a7b4e58a037220a4db2dfef220d40f70,
-        type: 3}
-      propertyPath: Lines.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5457976908074357949, guid: a7b4e58a037220a4db2dfef220d40f70,
-        type: 3}
-      propertyPath: Lines.Array.data[0]
-      value: "-rc\xBFQu\xE9 m\xE1s quieres? D\xE9jame en paz."
-      objectReference: {fileID: 0}
-    - target: {fileID: 5457976908074357949, guid: a7b4e58a037220a4db2dfef220d40f70,
-        type: 3}
-      propertyPath: Lines.Array.data[1]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 5457976908074357949, guid: a7b4e58a037220a4db2dfef220d40f70,
-        type: 3}
-      propertyPath: nextDialogue
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 5457976908074357949, guid: a7b4e58a037220a4db2dfef220d40f70,
-        type: 3}
-      propertyPath: LCharacter
-      value: 
-      objectReference: {fileID: 1655062965}
-    - target: {fileID: 5457976908074357949, guid: a7b4e58a037220a4db2dfef220d40f70,
-        type: 3}
-      propertyPath: LName
-      value: Nanami
-      objectReference: {fileID: 0}
-    - target: {fileID: 5457976908074357949, guid: a7b4e58a037220a4db2dfef220d40f70,
-        type: 3}
-      propertyPath: RName
-      value: Inversor de Izanagi
-      objectReference: {fileID: 0}
-    - target: {fileID: 5457976908074357949, guid: a7b4e58a037220a4db2dfef220d40f70,
-        type: 3}
-      propertyPath: Lines.Array.data[2]
-      value: -nd
-      objectReference: {fileID: 0}
-    - target: {fileID: 7680843051710651913, guid: a7b4e58a037220a4db2dfef220d40f70,
-        type: 3}
-      propertyPath: m_Name
-      value: DialogueSet
-      objectReference: {fileID: 0}
-    - target: {fileID: 7680843052910562374, guid: a7b4e58a037220a4db2dfef220d40f70,
-        type: 3}
-      propertyPath: Lines.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 7680843052910562374, guid: a7b4e58a037220a4db2dfef220d40f70,
-        type: 3}
-      propertyPath: interactedGameObjects.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7680843052910562374, guid: a7b4e58a037220a4db2dfef220d40f70,
-        type: 3}
-      propertyPath: Lines.Array.data[3]
-      value: "-rc\xBFDinero? JAJAJAJAJAJA. No me hagas reir, no sabes d\xF3nde te
-        est\xE1s metiendo. Dile a tu querido jefe que se acab\xF3 el trato."
-      objectReference: {fileID: 0}
-    - target: {fileID: 7680843052910562374, guid: a7b4e58a037220a4db2dfef220d40f70,
-        type: 3}
-      propertyPath: Lines.Array.data[4]
-      value: "-lcTranquilo, no har\xE1 falta avisarlo."
-      objectReference: {fileID: 0}
-    - target: {fileID: 7680843052910562374, guid: a7b4e58a037220a4db2dfef220d40f70,
-        type: 3}
-      propertyPath: Lines.Array.data[5]
-      value: -ssBaileYakuza
-      objectReference: {fileID: 0}
-    - target: {fileID: 7680843052910562374, guid: a7b4e58a037220a4db2dfef220d40f70,
-        type: 3}
-      propertyPath: Lines.Array.data[6]
-      value: -nd
-      objectReference: {fileID: 0}
-    - target: {fileID: 7680843052910562374, guid: a7b4e58a037220a4db2dfef220d40f70,
-        type: 3}
-      propertyPath: Lines.Array.data[0]
-      value: -lcCreo que ya has tenido suficiente. Dame lo que le debes a Izanagi.
-      objectReference: {fileID: 0}
-    - target: {fileID: 7680843052910562374, guid: a7b4e58a037220a4db2dfef220d40f70,
-        type: 3}
-      propertyPath: Lines.Array.data[1]
-      value: "-rcAqu\xED tienes las llaves, ve a la otra puerta y c\xF3gelo t\xFA
-        misma. Te arrepentir\xE1s de hacerlo."
-      objectReference: {fileID: 0}
-    - target: {fileID: 7680843052910562374, guid: a7b4e58a037220a4db2dfef220d40f70,
-        type: 3}
-      propertyPath: Lines.Array.data[2]
-      value: -nd
-      objectReference: {fileID: 0}
-    - target: {fileID: 7680843052910562374, guid: a7b4e58a037220a4db2dfef220d40f70,
-        type: 3}
-      propertyPath: LName
-      value: Nanami
-      objectReference: {fileID: 0}
-    - target: {fileID: 7680843052910562374, guid: a7b4e58a037220a4db2dfef220d40f70,
-        type: 3}
-      propertyPath: RName
-      value: Inversor de Izanagi
-      objectReference: {fileID: 0}
-    - target: {fileID: 7680843052910562374, guid: a7b4e58a037220a4db2dfef220d40f70,
-        type: 3}
-      propertyPath: LCharacter
-      value: 
-      objectReference: {fileID: 1655062965}
-    - target: {fileID: 7680843052910562374, guid: a7b4e58a037220a4db2dfef220d40f70,
-        type: 3}
-      propertyPath: Lines.Array.data[7]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 7680843052910562374, guid: a7b4e58a037220a4db2dfef220d40f70,
-        type: 3}
-      propertyPath: interactedGameObjects.Array.data[0]
-      value: 
-      objectReference: {fileID: 1915303156}
-    - target: {fileID: 9150506975693332375, guid: a7b4e58a037220a4db2dfef220d40f70,
-        type: 3}
-      propertyPath: Lines.Array.data[0]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 9150506975693332375, guid: a7b4e58a037220a4db2dfef220d40f70,
-        type: 3}
-      propertyPath: LName
-      value: Nanami
-      objectReference: {fileID: 0}
-    - target: {fileID: 9150506975693332375, guid: a7b4e58a037220a4db2dfef220d40f70,
-        type: 3}
-      propertyPath: RName
-      value: Inversor de Izanagi
-      objectReference: {fileID: 0}
-    - target: {fileID: 9150506975693332375, guid: a7b4e58a037220a4db2dfef220d40f70,
-        type: 3}
-      propertyPath: LCharacter
-      value: 
-      objectReference: {fileID: 1655062965}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: a7b4e58a037220a4db2dfef220d40f70, type: 3}
 --- !u!1 &1846323983
 GameObject:
   m_ObjectHideFlags: 0
@@ -2492,12 +2530,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1915303156 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5457976908074357923, guid: a7b4e58a037220a4db2dfef220d40f70,
-    type: 3}
-  m_PrefabInstance: {fileID: 1759827827}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1925349652
 GameObject:
   m_ObjectHideFlags: 0

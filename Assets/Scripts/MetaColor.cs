@@ -40,11 +40,6 @@ public class MetaColor : MonoBehaviour
         transform.position = pos0;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     public void cambiarVidaIb()
     {
