@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.InputSystem.Interactions;
+using UnityEngine.SceneManagement;
 
 public class PlayerControllerPuzle : MonoBehaviour
 {
@@ -11,7 +11,7 @@ public class PlayerControllerPuzle : MonoBehaviour
     private bool canMove = true;
     private Vector2 normalToCheck = Vector2.zero;
     private Vector2 currentColNormal = Vector2.zero;
-
+    SimpleController_UsingPlayerInput mainPlayer;
 
 
     private Rigidbody2D rb;
@@ -34,6 +34,9 @@ public class PlayerControllerPuzle : MonoBehaviour
     //---UNITY METHODS---
     void Start()
     {
+        mainPlayer = FindObjectOfType<SimpleController_UsingPlayerInput>();
+        disableMainPlayerController();
+
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
 
@@ -48,8 +51,8 @@ public class PlayerControllerPuzle : MonoBehaviour
 
 
         pInput.currentActionMap.FindAction("Interact").performed += ctx => OnInteract(ctx);
-        
 
+        DontDestroyOnLoad(gameObject);
         pInput.SwitchCurrentActionMap(actionMap);
 
     }
@@ -107,7 +110,7 @@ public class PlayerControllerPuzle : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerStay2D(Collider2D collision)
     {
         PushingFloor pf = collision.transform.GetComponent<PushingFloor>();
         if (pf != null)
@@ -115,10 +118,12 @@ public class PlayerControllerPuzle : MonoBehaviour
             if (!canMove)
                 rb.velocity = Vector2.zero;
             else if (pf.pushForce.normalized * -1 != currentColNormal)
+            {
                 canMove = false;
-
-            rb.AddForce(pf.pushForce);
-            normalToCheck = pf.pushForce.normalized * -1;
+                rb.AddForce(pf.pushForce);
+                normalToCheck = pf.pushForce.normalized * -1;
+                StartCoroutine(CanMoveAgainAfterWait(pf.pushTime));
+            }
         }
         else
         {
@@ -142,5 +147,25 @@ public class PlayerControllerPuzle : MonoBehaviour
     private void OnCollisionExit2D(Collision2D collision)
     {
         currentColNormal = Vector2.zero;
+    }
+
+    IEnumerator CanMoveAgainAfterWait(float seconds)
+    {
+        yield return new WaitForSeconds(seconds);
+        canMove = true;
+        rb.velocity = Vector2.zero;
+    }
+
+    private void disableMainPlayerController()
+    {
+        mainPlayer?.gameObject.SetActive(false);
+        SceneManager.sceneUnloaded += enableMainPlayerController;
+    }
+
+    private void enableMainPlayerController(Scene s)
+    {
+        mainPlayer?.gameObject.SetActive(true);
+        SceneManager.sceneUnloaded -= enableMainPlayerController;
+        gameObject.SetActive(false);
     }
 }

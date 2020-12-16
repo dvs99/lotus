@@ -11,6 +11,7 @@ TagManager:
   - Enemigo
   - Meta
   - VCAM
+  - PlayerPuxle
   layers:
   - Default
   - TransparentFX

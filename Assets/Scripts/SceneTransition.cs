@@ -10,9 +10,10 @@ public class SceneTransition : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player") && !other.isTrigger)
+        if ((other.CompareTag("Player")|| other.CompareTag("PlayerPuxle")) && !other.isTrigger)
         {
             SceneManager.LoadScene(sceneToLoad, LoadSceneMode.Single);
+            FindObjectOfType<SimpleController_UsingPlayerInput>()?.gameObject.SetActive(true);
         }
     }
 }
