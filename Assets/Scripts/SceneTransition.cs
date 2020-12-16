@@ -13,7 +13,6 @@ public class SceneTransition : MonoBehaviour
         if ((other.CompareTag("Player")|| other.CompareTag("PlayerPuxle")) && !other.isTrigger)
         {
             SceneManager.LoadScene(sceneToLoad, LoadSceneMode.Single);
-            FindObjectOfType<SimpleController_UsingPlayerInput>()?.gameObject.SetActive(true);
         }
     }
 }
