@@ -51,8 +51,6 @@ public class SimpleController_UsingPlayerInput : MonoBehaviour
         
 
         pInput.SwitchCurrentActionMap(actionMap);
-        
-
     }
 
     public void FixedUpdate()
