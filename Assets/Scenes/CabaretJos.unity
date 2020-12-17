@@ -1068,7 +1068,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 199321691}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.09, y: -7.4, z: -10}
+  m_LocalPosition: {x: -2.24, y: 11.42, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1073452099}
@@ -1700,7 +1700,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 235832146}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.35, y: 15.12, z: 6.3125}
+  m_LocalPosition: {x: 6.35, y: 13.79, z: 6.3125}
   m_LocalScale: {x: 4, y: 4, z: 1}
   m_Children:
   - {fileID: 1502472881}
@@ -4357,6 +4357,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Menu
       objectReference: {fileID: 0}
+    - target: {fileID: 3012955060858193581, guid: e493e91eee4a05c4bb74ac255d72f49b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3012955062273246833, guid: e493e91eee4a05c4bb74ac255d72f49b,
         type: 3}
       propertyPath: m_IsActive
@@ -5221,12 +5226,27 @@ PrefabInstance:
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[0]
-      value: "-lc\xA1Nanami cuanto tiempo!"
+      value: "-rc\xA1Nanami cuanto tiempo!"
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[1]
       value: -nd
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: LCharacter
+      value: 
+      objectReference: {fileID: 571416070}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: LName
+      value: Nanami
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: RName
+      value: Kimiko
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704123, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
@@ -19992,7 +20012,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1567689024}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.0890045, y: -5.9702973, z: -10}
+  m_LocalPosition: {x: -1.9844754, y: 11.4197235, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -20443,7 +20463,7 @@ PrefabInstance:
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
@@ -20453,7 +20473,27 @@ PrefabInstance:
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[1]
-      value: -nd
+      value: -lcPues aqui, tirando...
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: LCharacter
+      value: 
+      objectReference: {fileID: 571416070}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: LName
+      value: Nanami
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: RName
+      value: Shuntarou
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: Lines.Array.data[2]
+      value: -rcPues ya somos dos...
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704123, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
@@ -20488,7 +20528,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1616953507}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.9, y: 4.04, z: 6.3125}
+  m_LocalPosition: {x: -7.96, y: 4.04, z: 6.3125}
   m_LocalScale: {x: 4, y: 4, z: 1}
   m_Children:
   - {fileID: 1762269534}
@@ -21326,6 +21366,17 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SortingLayer
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 427532509091760206, guid: 8181fbcabcb733743afed103c07031de,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -4113676111410063870, guid: 202da605c1faf2d40b3bd7240dbed8ec,
+        type: 3}
+    - target: {fileID: 427532509091760206, guid: 8181fbcabcb733743afed103c07031de,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 427532508492069258, guid: 8181fbcabcb733743afed103c07031de, type: 3}
@@ -22921,7 +22972,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1972089587}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.14, y: 6, z: 6.3125}
+  m_LocalPosition: {x: -7.14, y: 6.03, z: 6.3125}
   m_LocalScale: {x: 4, y: 4, z: 1}
   m_Children:
   - {fileID: 425931513}
@@ -23332,12 +23383,12 @@ PrefabInstance:
     - target: {fileID: 427532508492069259, guid: 8181fbcabcb733743afed103c07031de,
         type: 3}
       propertyPath: m_Offset.y
-      value: 0.3313803
+      value: 0.24305649
       objectReference: {fileID: 0}
     - target: {fileID: 427532508492069259, guid: 8181fbcabcb733743afed103c07031de,
         type: 3}
       propertyPath: m_Size.y
-      value: 1.2539059
+      value: 1.0772583
       objectReference: {fileID: 0}
     - target: {fileID: 427532508583006324, guid: 8181fbcabcb733743afed103c07031de,
         type: 3}
@@ -23646,17 +23697,32 @@ PrefabInstance:
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[0]
-      value: "-lc\xBFHas visto mi cartera?"
+      value: "-rc\xBFHas visto mi cartera?"
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[1]
-      value: -lcHe perdido mi cartera
+      value: -rcCreo que se me ha caido...
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[2]
       value: -nd
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: LCharacter
+      value: 
+      objectReference: {fileID: 571416070}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: LName
+      value: Nanami
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
+        type: 3}
+      propertyPath: RName
+      value: Yono
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704123, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
@@ -24081,7 +24147,7 @@ PolygonCollider2D:
       - {x: -1.0737791, y: -15.929964}
       - {x: 10.892595, y: -15.921629}
       - {x: 18.925383, y: -15.983665}
-      - {x: 31.175308, y: -16.006783}
+      - {x: 30.93291, y: -16.006784}
       - {x: 30.91966, y: -10.032247}
 --- !u!4 &2119768409
 Transform:
@@ -24547,6 +24613,21 @@ PrefabInstance:
       propertyPath: Lines.Array.data[1]
       value: -nd
       objectReference: {fileID: 0}
+    - target: {fileID: 8274210768011686064, guid: 9664549fcb78cba41b237cef7eef2e9e,
+        type: 3}
+      propertyPath: LCharacter
+      value: 
+      objectReference: {fileID: 571416070}
+    - target: {fileID: 8274210768011686064, guid: 9664549fcb78cba41b237cef7eef2e9e,
+        type: 3}
+      propertyPath: LName
+      value: Nanami
+      objectReference: {fileID: 0}
+    - target: {fileID: 8274210768011686064, guid: 9664549fcb78cba41b237cef7eef2e9e,
+        type: 3}
+      propertyPath: RName
+      value: Yoko
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9664549fcb78cba41b237cef7eef2e9e, type: 3}
 --- !u!4 &427532508799417925 stripped
@@ -24627,12 +24708,12 @@ PrefabInstance:
     - target: {fileID: 8738503483946133229, guid: 8482962064de8de4bb9999cdd3a7ff7d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.09
+      value: -2.24
       objectReference: {fileID: 0}
     - target: {fileID: 8738503483946133229, guid: 8482962064de8de4bb9999cdd3a7ff7d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7.4
+      value: 11.42
       objectReference: {fileID: 0}
     - target: {fileID: 8738503483946133229, guid: 8482962064de8de4bb9999cdd3a7ff7d,
         type: 3}
@@ -24910,10 +24991,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 297293872}
     m_Modifications:
+    - target: {fileID: 7471212237832470875, guid: 9b6091f02b065f048b1a5bf9419ead68,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.48
+      objectReference: {fileID: 0}
     - target: {fileID: 7471212238298099860, guid: 9b6091f02b065f048b1a5bf9419ead68,
         type: 3}
       propertyPath: m_Layer
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7471212238298099866, guid: 9b6091f02b065f048b1a5bf9419ead68,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: 0.061984867
+      objectReference: {fileID: 0}
+    - target: {fileID: 7471212238298099866, guid: 9b6091f02b065f048b1a5bf9419ead68,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.48542172
       objectReference: {fileID: 0}
     - target: {fileID: 7471212238474533220, guid: 9b6091f02b065f048b1a5bf9419ead68,
         type: 3}

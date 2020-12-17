@@ -20,6 +20,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Almacen2.unity
     guid: 8c5ef8484629ec34fb4703befced1fa2
+  - enabled: 1
+    path: Assets/Scenes/BarrioTransicion.unity
+    guid: 376c28811d3ffcd48b00c5f0b5a5c098
+  - enabled: 1
+    path: Assets/Scenes/Callejon.unity
+    guid: 26c99762ad6dd574dbc0d3e0f8840e69
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: b41653c9278f1a54992eb41f749d8d00,
       type: 2}
