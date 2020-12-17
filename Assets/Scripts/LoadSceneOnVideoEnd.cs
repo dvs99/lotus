@@ -12,6 +12,11 @@ public class LoadSceneOnVideoEnd : MonoBehaviour
     void Awake()
     {
         video = GetComponent<VideoPlayer>();
+
+#if UNITY_WEBGL
+        video.url = System.IO.Path.Combine(Application.streamingAssetsPath, "Cinematica.mp4");
+#endif
+
         video.Play();
         video.loopPointReached += CheckOver;
     }
