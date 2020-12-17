@@ -160,12 +160,14 @@ public class PlayerControllerPuzle : MonoBehaviour
     {
         mainPlayer?.gameObject.SetActive(false);
         SceneManager.sceneUnloaded += enableMainPlayerController;
+        GameObject.FindGameObjectWithTag("VCAM").GetComponent<Cinemachine.CinemachineVirtualCamera>().Follow = transform;
     }
 
     private void enableMainPlayerController(Scene s)
     {
         mainPlayer?.gameObject.SetActive(true);
         SceneManager.sceneUnloaded -= enableMainPlayerController;
+        GameObject.FindGameObjectWithTag("VCAM").GetComponent<Cinemachine.CinemachineVirtualCamera>().Follow = mainPlayer.transform;
         gameObject.SetActive(false);
     }
 }
