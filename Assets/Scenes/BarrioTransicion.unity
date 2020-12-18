@@ -164,11 +164,10 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -1.5818621, y: 10.781911}
+    - - {x: 8.810802, y: 10.847228}
       - {x: -9.655538, y: 10.785352}
       - {x: -9.688657, y: -8.238802}
       - {x: 8.792319, y: -8.247946}
-      - {x: 8.793189, y: 10.7823105}
 --- !u!4 &5493422
 Transform:
   m_ObjectHideFlags: 0
@@ -4110,7 +4109,7 @@ PrefabInstance:
     - target: {fileID: 8738503483946133229, guid: 8482962064de8de4bb9999cdd3a7ff7d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 9.29
+      value: 8.98
       objectReference: {fileID: 0}
     - target: {fileID: 8738503483946133229, guid: 8482962064de8de4bb9999cdd3a7ff7d,
         type: 3}
@@ -4917,6 +4916,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1964447333}
     m_Modifications:
+    - target: {fileID: 7471212238298099866, guid: 9b6091f02b065f048b1a5bf9419ead68,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: -0.1363015
+      objectReference: {fileID: 0}
+    - target: {fileID: 7471212238298099866, guid: 9b6091f02b065f048b1a5bf9419ead68,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.56624997
+      objectReference: {fileID: 0}
     - target: {fileID: 7471212238474533220, guid: 9b6091f02b065f048b1a5bf9419ead68,
         type: 3}
       propertyPath: m_Name
@@ -8607,7 +8616,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1738216228}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.2586441, y: 4.999894, z: -10}
+  m_LocalPosition: {x: -1.255866, y: 5.0030394, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -9147,7 +9156,7 @@ PrefabInstance:
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[0]
-      value: "-rcOye guapa, necesitas algo de compa\xF1\xEDa para esta noche?"
+      value: "-rc\xBFOye guapa, necesitas algo de compa\xF1\xEDa para esta noche?"
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
@@ -9623,7 +9632,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1912461547}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.38, y: 9.29, z: -10}
+  m_LocalPosition: {x: -8.38, y: 8.98, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1510958399}

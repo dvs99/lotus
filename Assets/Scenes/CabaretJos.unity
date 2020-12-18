@@ -1189,7 +1189,7 @@ PrefabInstance:
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[1]
-      value: -lc<h>Y entonces a que vienes?
+      value: "-lc<h>\xBFY entonces a que vienes?"
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
@@ -4921,6 +4921,11 @@ PrefabInstance:
       propertyPath: RName
       value: Naoko
       objectReference: {fileID: 0}
+    - target: {fileID: 7680843052910562374, guid: a7b4e58a037220a4db2dfef220d40f70,
+        type: 3}
+      propertyPath: LCharacter
+      value: 
+      objectReference: {fileID: 571416070}
     - target: {fileID: 7680843052910562392, guid: a7b4e58a037220a4db2dfef220d40f70,
         type: 3}
       propertyPath: m_Name
@@ -6337,7 +6342,7 @@ PrefabInstance:
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[1]
-      value: -lc<n>Es un poco raro no?
+      value: "-lc<n>\xBFEs un poco raro no?"
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
@@ -17652,7 +17657,7 @@ PrefabInstance:
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[0]
-      value: "-rc\xA1Tiene invitaci\xF3n para entrar?"
+      value: "-rc\xBFTiene invitaci\xF3n para entrar?"
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
@@ -18697,6 +18702,11 @@ PrefabInstance:
       propertyPath: RName
       value: Mika
       objectReference: {fileID: 0}
+    - target: {fileID: 7680843052910562374, guid: a7b4e58a037220a4db2dfef220d40f70,
+        type: 3}
+      propertyPath: LCharacter
+      value: 
+      objectReference: {fileID: 571416070}
     - target: {fileID: 7680843052910562392, guid: a7b4e58a037220a4db2dfef220d40f70,
         type: 3}
       propertyPath: m_Name
@@ -20012,7 +20022,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1567689024}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.24, y: 11.42, z: -10}
+  m_LocalPosition: {x: -1.9434083, y: 11.420607, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -24141,14 +24151,10 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 30.998789, y: 18.06096}
+    - - {x: 30.712425, y: -15.765795}
+      - {x: 30.899311, y: 17.961485}
       - {x: -1.0009193, y: 18.050274}
-      - {x: -1.0311775, y: -9.905661}
-      - {x: -1.0737791, y: -15.929964}
-      - {x: 10.892595, y: -15.921629}
-      - {x: 18.925383, y: -15.983665}
-      - {x: 30.93291, y: -16.006784}
-      - {x: 30.91966, y: -10.032247}
+      - {x: -0.93169785, y: -15.774895}
 --- !u!4 &2119768409
 Transform:
   m_ObjectHideFlags: 0
@@ -24658,7 +24664,7 @@ PrefabInstance:
     - target: {fileID: 1269567586365479777, guid: 8482962064de8de4bb9999cdd3a7ff7d,
         type: 3}
       propertyPath: m_SortingOrder
-      value: 100
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1964784718080075754, guid: 8482962064de8de4bb9999cdd3a7ff7d,
         type: 3}
