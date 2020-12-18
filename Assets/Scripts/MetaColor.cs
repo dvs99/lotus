@@ -26,7 +26,7 @@ public class MetaColor : MonoBehaviour
         vidaIb2 = GameObject.Find("VidaIb2");
         vidaIb3 = GameObject.Find("VidaIb3");
         protago = GameObject.Find("Protagonista");
-
+        protago.SetActive(false);
         vidaIb1.SetActive(true);
         vidaIb2.SetActive(true);
         vidaIb3.SetActive(true);
@@ -34,7 +34,7 @@ public class MetaColor : MonoBehaviour
         this.gameObject.SetActive(true);
 
        
-        protago.SetActive(false);
+       
 
         Scene currentScene = SceneManager.GetActiveScene();
         sceneName = currentScene.name;

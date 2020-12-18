@@ -46,7 +46,7 @@ public class PlayerControllerBaile : MonoBehaviour
         vida1.SetActive(true);
         vida2.SetActive(true);
         vida3.SetActive(true);
-        prota.SetActive(false);
+        //prota.SetActive(false);
 
         //Subscribe the input callback functions to the corresponding input events
         string actionMap = pInput.currentActionMap.name;
