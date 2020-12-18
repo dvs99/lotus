@@ -22,12 +22,7 @@ public class DetectarPalabra : MonoBehaviour
     {
         pInput = Input.Instance.GetComponent<PlayerInput>();
 
-        string actionMap = pInput.currentActionMap.name;
-        pInput.SwitchCurrentActionMap("Player");
-
-        pInput.currentActionMap.FindAction("Interact").performed += ctx => Read();
-
-        pInput.SwitchCurrentActionMap(actionMap);
+       
         palabra.SetActive(false);
         informacion.SetActive(false);
         pensamiento.SetActive(true);
@@ -63,4 +58,18 @@ public class DetectarPalabra : MonoBehaviour
             pensamiento.SetActive(false);
         }
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        string actionMap = pInput.currentActionMap.name;
+        pInput.SwitchCurrentActionMap("Player");
+
+        pInput.currentActionMap.FindAction("Interact").performed += ctx => Read();
+
+        pInput.SwitchCurrentActionMap(actionMap);
+    }
+
+
+   
+  
 }

@@ -17,18 +17,24 @@ public class MetaColor : MonoBehaviour
 
     private string sceneName;
 
+    private GameObject protago;
+
     // Start is called before the first frame update
     void Start()
     {
         vidaIb1 = GameObject.Find("VidaIb1");
         vidaIb2 = GameObject.Find("VidaIb2");
         vidaIb3 = GameObject.Find("VidaIb3");
+        protago = GameObject.Find("Protagonista");
 
         vidaIb1.SetActive(true);
         vidaIb2.SetActive(true);
         vidaIb3.SetActive(true);
 
         this.gameObject.SetActive(true);
+
+       
+        protago.SetActive(false);
 
         Scene currentScene = SceneManager.GetActiveScene();
         sceneName = currentScene.name;
@@ -62,6 +68,7 @@ public class MetaColor : MonoBehaviour
             case 0:
                 vidaIb1.SetActive(false);
                 this.gameObject.SetActive(false);
+                protago.SetActive(true);
                 SceneManager.LoadScene("Almacen2", LoadSceneMode.Single);
                 break;
         }
