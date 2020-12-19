@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.Interactions;
+using UnityEngine.SceneManagement;
 
 public class PausaMenu : MonoBehaviour
 {
@@ -21,10 +22,14 @@ public class PausaMenu : MonoBehaviour
     public GameObject info_Izanagi, tatuaje_Izanagi;
     public GameObject info_Niko, tatuaje_Niko;
 
+    Scene m_Scene;
+    string sceneName;
+
     private PlayerInput pInput;
 
     void Start()
     {
+        DontDestroyOnLoad(this.gameObject);
         pInput = Input.Instance.GetComponent<PlayerInput>();
 
         string actionMap = pInput.currentActionMap.name;
@@ -53,12 +58,6 @@ public class PausaMenu : MonoBehaviour
         info_Izanagi.SetActive(false);
         tatuaje_Niko.SetActive(false);
         info_Niko.SetActive(false);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-       
     }
 
     private void onPause(){
@@ -236,6 +235,16 @@ public class PausaMenu : MonoBehaviour
         contactosUI.SetActive(false);
         tatuaje_Niko.SetActive(true);
         info_Niko.SetActive(false);
+
+    }
+
+    public void Reiniciar()
+    {
+        pauseMenuUI.SetActive(false);
+        m_Scene = SceneManager.GetActiveScene();
+        sceneName = m_Scene.name;
+        SceneManager.LoadScene(sceneName);
+        Time.timeScale = 1;
 
     }
 
