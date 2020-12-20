@@ -44,7 +44,7 @@ public class FollowPlayer : Interactable
             {
                 anim.Play("Walk");
             }
-            if (Vector2.Distance(transform.position, target.position) > 0.7)
+            if (Vector2.Distance(transform.position, target.position) > 0.8)
             {
                 Vector2 direccion = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
                 
