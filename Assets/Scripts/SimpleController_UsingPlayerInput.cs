@@ -119,6 +119,9 @@ public class SimpleController_UsingPlayerInput : MonoBehaviour
 
         DontDestroyOnLoad(this.gameObject);
     }
-
+    public Vector2 devolverVelocidad()
+    {
+        return m_Move;
+    }
 
 }

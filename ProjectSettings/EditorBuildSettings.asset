@@ -41,6 +41,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PuzleAlmacen.unity
     guid: f44d1ef261d48c2449d2c9655a7c1b4b
+  - enabled: 1
+    path: Assets/Scenes/Informacion.unity
+    guid: a2865f15191585a40b2b64e9f5e30510
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: b41653c9278f1a54992eb41f749d8d00,
       type: 2}

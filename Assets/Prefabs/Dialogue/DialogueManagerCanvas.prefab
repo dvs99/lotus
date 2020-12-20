@@ -1062,13 +1062,13 @@ PrefabInstance:
         type: 3}
       propertyPath: emotionSprites.Array.data[1]
       value: 
-      objectReference: {fileID: 21300000, guid: 4ef4a6c439592574fb5db780bf2a2440,
+      objectReference: {fileID: 21300000, guid: 35256e2d5923b0c43aa19f52c1a1bf92,
         type: 3}
     - target: {fileID: 2644423330628521622, guid: 5c3372b9c53c6e84bb062c5a32634a3f,
         type: 3}
       propertyPath: emotionSprites.Array.data[2]
       value: 
-      objectReference: {fileID: 21300000, guid: 35256e2d5923b0c43aa19f52c1a1bf92,
+      objectReference: {fileID: 21300000, guid: 4ef4a6c439592574fb5db780bf2a2440,
         type: 3}
     - target: {fileID: 2644423330628521622, guid: 5c3372b9c53c6e84bb062c5a32634a3f,
         type: 3}
@@ -1439,13 +1439,13 @@ PrefabInstance:
         type: 3}
       propertyPath: emotionSprites.Array.data[1]
       value: 
-      objectReference: {fileID: 21300000, guid: d8ba2b6cc266ca345a3418c10b21aaa7,
+      objectReference: {fileID: 21300000, guid: 4b227ab651014ab41a788aa5e5dc5943,
         type: 3}
     - target: {fileID: 2644423330628521622, guid: 5c3372b9c53c6e84bb062c5a32634a3f,
         type: 3}
       propertyPath: emotionSprites.Array.data[2]
       value: 
-      objectReference: {fileID: 21300000, guid: 4b227ab651014ab41a788aa5e5dc5943,
+      objectReference: {fileID: 21300000, guid: d8ba2b6cc266ca345a3418c10b21aaa7,
         type: 3}
     - target: {fileID: 2644423330628521622, guid: 5c3372b9c53c6e84bb062c5a32634a3f,
         type: 3}
