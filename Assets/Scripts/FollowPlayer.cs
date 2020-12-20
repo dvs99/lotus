@@ -8,33 +8,55 @@ public class FollowPlayer : Interactable
     public float speed;
     private Transform target;
     private bool follow;
-    //private Animator anim;
+    private SimpleController_UsingPlayerInput jugador;
+    private Animator anim;
+    Vector2 quieto;
 
-    //private Vector3 directionVector;
+
 
 
 
     // Start is called before the first frame update
     void Start()
     {
-        //anim = GetComponent<Animator>();
+        anim = GetComponent<Animator>();
+        jugador = GameObject.FindGameObjectWithTag("Player").GetComponent<SimpleController_UsingPlayerInput>();
         target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
+        quieto = new Vector2 (0, 0);
+        
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
+        
         if (playerInRange)
         {
             follow = true;
         }
         if (follow)
         {
-            if (Vector2.Distance(transform.position, target.position) > 0.5)
+            if (jugador.devolverVelocidad() == quieto)
             {
-                transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
-                
+                anim.Play("Idle");
             }
+            else if (jugador.devolverVelocidad() != quieto)
+            {
+                anim.Play("Walk");
+            }
+            if (Vector2.Distance(transform.position, target.position) > 0.7)
+            {
+                Vector2 direccion = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
+                
+                transform.position = direccion;
+               
+                anim.SetFloat("MoveX", target.position.x - transform.position.x);
+                anim.SetFloat("MoveY", target.position.y - transform.position.y);
+            }
+        }
+        else
+        {
+            anim.Play("Idle");
         }
     }
 
