@@ -2716,12 +2716,12 @@ PrefabInstance:
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[5]
-      value: "-lc<n>Entiendo, \xBFd\xF3nde es?. Ir\xE9 ahora mismo."
+      value: "-lc<n>Entiendo, \xBFd\xF3nde es? Ir\xE9 ahora mismo."
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
       propertyPath: Lines.Array.data[6]
-      value: "-rc<n>En  las traseras del local 1500. Ve por la calle de abajo y llegar\xE1s."
+      value: "-rc<n>En las traseras del local 1500. Ve por la calle de abajo y llegar\xE1s."
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
@@ -2738,7 +2738,7 @@ PrefabInstance:
       propertyPath: Lines.Array.data[9]
       value: "-rc<h>Recuerda que en tu m\xF3vil tienes los contactos, tus mensajes
         y cualquier informaci\xF3n m\xE1s que necesites para la misi\xF3n. Puedes
-        usarlo pulsando A."
+        usarlo pulsando la tecla Escape."
       objectReference: {fileID: 0}
     - target: {fileID: 8173159795264704101, guid: 79061dfcd221af64abc9dfea70e3875d,
         type: 3}
@@ -5425,12 +5425,12 @@ PrefabInstance:
     - target: {fileID: 192796213875695283, guid: ca92bb78e2a640e47a8ff23705d5a0ee,
         type: 3}
       propertyPath: m_Offset.y
-      value: -0.23073387
+      value: -0.040255547
       objectReference: {fileID: 0}
     - target: {fileID: 192796213875695283, guid: ca92bb78e2a640e47a8ff23705d5a0ee,
         type: 3}
       propertyPath: m_Size.y
-      value: 0.53853226
+      value: 0.9194889
       objectReference: {fileID: 0}
     - target: {fileID: 192796213875695283, guid: ca92bb78e2a640e47a8ff23705d5a0ee,
         type: 3}
