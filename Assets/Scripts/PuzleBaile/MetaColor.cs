@@ -19,6 +19,10 @@ public class MetaColor : MonoBehaviour
 
     private GameObject protago;
 
+    private AudioSource audioPlayer;
+
+    public AudioClip hit_enemy;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -44,13 +48,16 @@ public class MetaColor : MonoBehaviour
         else if (sceneName == "BaileYakuza") pos0 = new Vector2(2.89f, -2.99f);
 
         transform.position = pos0;
+
+        audioPlayer = GetComponent<AudioSource>();
     }
 
 
     public void cambiarVidaIb()
     {
         vidasIb--;
-
+        audioPlayer.clip = hit_enemy;
+        audioPlayer.Play();
         switch (vidasIb)
         {
             case 2:

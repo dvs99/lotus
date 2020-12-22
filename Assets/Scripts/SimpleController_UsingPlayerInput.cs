@@ -9,13 +9,14 @@ public class SimpleController_UsingPlayerInput : MonoBehaviour
     public float rotateSpeed;
     private Vector2 m_Move;
     
-
+    public AudioClip walking;
 
 
     private Rigidbody2D rb;
     private PlayerInput pInput;
     private Animator animator;
     Vector2 lookDirection = new Vector2(1, 0);
+    private AudioSource audioPlayer;
 
     RaycastHit2D hit;
 
@@ -51,11 +52,15 @@ public class SimpleController_UsingPlayerInput : MonoBehaviour
         
 
         pInput.SwitchCurrentActionMap(actionMap);
+
+        audioPlayer = GetComponent<AudioSource>();
     }
 
     public void FixedUpdate()
     {
         Move(m_Move);
+        
+        
     }
 
     public void Update()
@@ -71,6 +76,7 @@ public class SimpleController_UsingPlayerInput : MonoBehaviour
         {
             lookDirection.Set(move.x, move.y);
             lookDirection.Normalize();
+            
         }
 
         animator.SetFloat("MoveX", lookDirection.x);
@@ -91,6 +97,12 @@ public class SimpleController_UsingPlayerInput : MonoBehaviour
         var move = Quaternion.Euler(0, transform.eulerAngles.y, 0) * new Vector3(direction.x, direction.y,0 );
 
         rb.MovePosition(transform.position + move * scaledMoveSpeed);
+        if (!audioPlayer.isPlaying)
+        {
+            audioPlayer.clip = walking;
+            audioPlayer.Play();
+        }
+
     }
     private void Interact()
     {

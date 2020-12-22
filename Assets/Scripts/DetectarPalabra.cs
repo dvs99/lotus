@@ -13,7 +13,11 @@ public class DetectarPalabra : MonoBehaviour
     public GameObject inputField;
     public GameObject pensamiento;
     private string pal;
+    private AudioSource audioPlayer;
 
+    public AudioClip error;
+    public AudioClip acierto;
+  
     private PlayerInput pInput;
 
 
@@ -26,6 +30,7 @@ public class DetectarPalabra : MonoBehaviour
         palabra.SetActive(false);
         informacion.SetActive(false);
         pensamiento.SetActive(true);
+        audioPlayer = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -56,6 +61,13 @@ public class DetectarPalabra : MonoBehaviour
             informacion.SetActive(true);
             palabra.SetActive(false);
             pensamiento.SetActive(false);
+            audioPlayer.clip = acierto;
+            audioPlayer.Play();
+        }
+        else
+        {
+            audioPlayer.clip = error;
+            audioPlayer.Play();
         }
     }
 

@@ -19,8 +19,12 @@ public class PlayerControllerBaile : MonoBehaviour
     private Rigidbody2D rb;
 
     public int vidas = 3;
-
+    
     private GameObject prota;
+
+    private AudioSource audioPlayer;
+
+    public AudioClip hit_nanami;
 
     public void OnMove(InputAction.CallbackContext context)
     {
@@ -38,6 +42,7 @@ public class PlayerControllerBaile : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
 
         prota = GameObject.Find("Protagonista");
+        
     }
 
     // Start is called before the first frame update
@@ -47,6 +52,7 @@ public class PlayerControllerBaile : MonoBehaviour
         vida2.SetActive(true);
         vida3.SetActive(true);
         //prota.SetActive(false);
+        audioPlayer = GetComponent<AudioSource>();
 
         //Subscribe the input callback functions to the corresponding input events
         string actionMap = pInput.currentActionMap.name;
@@ -90,10 +96,12 @@ public class PlayerControllerBaile : MonoBehaviour
 
     }
 
+ 
     public void cambiarVida()
     {
         vidas--;
-
+        audioPlayer.clip = hit_nanami;
+        audioPlayer.Play();
         switch (vidas)
         {
             case 2:
