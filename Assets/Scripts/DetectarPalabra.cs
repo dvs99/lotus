@@ -33,11 +33,6 @@ public class DetectarPalabra : MonoBehaviour
         audioPlayer = GetComponent<AudioSource>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     private void Read()
     {
@@ -56,7 +51,7 @@ public class DetectarPalabra : MonoBehaviour
     {
         pal = inputField.GetComponent<Text>().text;
         Debug.Log(pal);
-        if (pal == "feto" || pal == "Feto")
+        if (pal == "feto" || pal == "Feto" || pal == "FETO")
         {
             informacion.SetActive(true);
             palabra.SetActive(false);

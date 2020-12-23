@@ -19,6 +19,10 @@ public class PlayerControllerPuzle : MonoBehaviour
     private Animator animator;
     Vector2 lookDirection = new Vector2(1, 0);
 
+    public AudioClip walking;
+    private AudioSource audioPlayer;
+
+
     //---CALLBACKS---
     public void OnMove(InputAction.CallbackContext context)
     {
@@ -54,6 +58,9 @@ public class PlayerControllerPuzle : MonoBehaviour
 
         DontDestroyOnLoad(gameObject);
         pInput.SwitchCurrentActionMap(actionMap);
+
+        audioPlayer = GetComponent<AudioSource>();
+
 
     }
 
@@ -94,6 +101,11 @@ public class PlayerControllerPuzle : MonoBehaviour
         var move = Quaternion.Euler(0, transform.eulerAngles.y, 0) * new Vector3(direction.x, direction.y,0 );
 
         rb.MovePosition(transform.position + move * scaledMoveSpeed);
+        if (!audioPlayer.isPlaying)
+        {
+            audioPlayer.clip = walking;
+            audioPlayer.Play();
+        }
     }
     private void Interact()
     {

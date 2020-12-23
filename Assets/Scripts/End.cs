@@ -15,6 +15,8 @@ public class End : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             end.SetActive(true);
+            other.gameObject.SetActive(false);
+            Camera.current.GetComponent<AudioListener>().enabled = false;
         }
     }
 }

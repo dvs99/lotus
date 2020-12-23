@@ -10923,6 +10923,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 3
   rotateSpeed: 1
+  walking: {fileID: 8300000, guid: 233053c2596195447bc4449e85adf915, type: 3}
 --- !u!1 &1622604152
 GameObject:
   m_ObjectHideFlags: 0

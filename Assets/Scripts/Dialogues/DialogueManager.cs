@@ -32,6 +32,9 @@ public class DialogueManager : MonoBehaviour
         }
 
         DontDestroyOnLoad(gameObject);
+
+        QualitySettings.vSyncCount = 0;
+        Application.targetFrameRate = 120;
     }
 
 
