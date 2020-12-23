@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class End : MonoBehaviour
 {
@@ -17,6 +18,7 @@ public class End : MonoBehaviour
             end.SetActive(true);
             other.gameObject.SetActive(false);
             Camera.current.GetComponent<AudioListener>().enabled = false;
+            Input.Instance.GetComponent<PlayerInput>().SwitchCurrentActionMap("Puzle");
         }
     }
 }

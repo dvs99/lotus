@@ -26,7 +26,7 @@ public class PlayerControllerBaile : MonoBehaviour
 
     public AudioClip hit_nanami;
 
-    public void OnMove(InputAction.CallbackContext context)
+    public void OnMovePuzle(InputAction.CallbackContext context)
     {
         m_Move = context.ReadValue<Vector2>();
     }
@@ -37,7 +37,7 @@ public class PlayerControllerBaile : MonoBehaviour
         vida2 = GameObject.Find("Vida2");
         vida3 = GameObject.Find("Vida3");
 
-        pInput = GetComponent<PlayerInput>();
+        pInput = Input.Instance.GetComponent<PlayerInput>();
 
         rb = GetComponent<Rigidbody2D>();
 
@@ -56,12 +56,12 @@ public class PlayerControllerBaile : MonoBehaviour
 
         //Subscribe the input callback functions to the corresponding input events
         string actionMap = pInput.currentActionMap.name;
-        pInput.SwitchCurrentActionMap("Puzle");
+        //pInput.SwitchCurrentActionMap("Puzle");
 
-        pInput.currentActionMap.FindAction("Move").performed += ctx => OnMove(ctx);
-        pInput.currentActionMap.FindAction("Move").canceled += ctx => OnMove(ctx);
+        pInput.currentActionMap.FindAction("Move").performed += ctx => OnMovePuzle(ctx);
+        pInput.currentActionMap.FindAction("Move").canceled += ctx => OnMovePuzle(ctx);
 
-        pInput.SwitchCurrentActionMap(actionMap);
+        //pInput.SwitchCurrentActionMap(actionMap);
     }
     
 
