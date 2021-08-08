@@ -21,6 +21,6 @@ It also shows that I am capable of working in a team environment succesfully (wh
 use of the SCRUM methodology whick I persolly think is a really important and useful ability.
 
 ## Language note
-Unfortunately most of this repository is in Spanish (including the code and the game itself) since part of the team was not fluent in English
+Unfortunately a considerable part of this repository is in Spanish (including some code and the game itself) since part of the team was not fluent in English
 and a translation was not possible within the tight time budget we had, feel free to contact me at diego.villabrille@uji.es for any explanation,
 clarification or even translation that you are interested in.
